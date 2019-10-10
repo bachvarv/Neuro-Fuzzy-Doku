@@ -1,0 +1,57 @@
+\babel@toc {ngerman}{}
+\babel@toc {ngerman}{}
+\contentsline {chapter}{\numberline {1}Einleitung und Problemstellung}{1}{chapter.1}
+\contentsline {chapter}{\numberline {2}Unscharfe Daten und Fuzzy-Logik}{2}{chapter.2}
+\contentsline {section}{\numberline {2.1}Fuzzy-Logik}{2}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Fuzzy-Sets}{3}{subsection.2.1.1}
+\contentsline {section}{\numberline {2.2}Operationen auf Fuzzy-Sets}{5}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Durchscnitt}{5}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Vereinigung}{6}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Komplement}{7}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}Zusammenfassung}{7}{subsection.2.2.4}
+\contentsline {section}{\numberline {2.3}Fuzzy-Systeme}{8}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Mamdani-Regler}{8}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Takagi-Sugeno-Kang-Modell}{10}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Fuzzifizierung und Defuzzifizierung}{10}{subsection.2.3.3}
+\contentsline {subsubsection}{Height Method}{11}{section*.5}
+\contentsline {subsubsection}{Center of Gravity}{11}{section*.6}
+\contentsline {subsubsection}{Weighted Average Method}{11}{section*.7}
+\contentsline {subsubsection}{Takagi-Sugeno-Kang-Defuzzifizierungsmethode}{12}{section*.8}
+\contentsline {chapter}{\numberline {3}K\IeC {\"u}nstliche Neuronale Netze}{13}{chapter.3}
+\contentsline {section}{\numberline {3.1}Biologische Grundlagen}{13}{section.3.1}
+\contentsline {section}{\numberline {3.2}Neuron in K\IeC {\"u}nstlichen Neuronalen Netzen}{13}{section.3.2}
+\contentsline {section}{\numberline {3.3}Lernen}{14}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Unsupervised Learning}{15}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Supervised Learning}{15}{subsection.3.3.2}
+\contentsline {subsubsection}{Least Mean Square Method}{15}{section*.9}
+\contentsline {subsubsection}{Backpropagation Algorithm}{16}{section*.10}
+\contentsline {section}{\numberline {3.4}Schl\IeC {\"u}sse}{16}{section.3.4}
+\contentsline {chapter}{\numberline {4}Neuro-Fuzzy-Systeme}{17}{chapter.4}
+\contentsline {section}{\numberline {4.1}Neuro-Fuzzy-Regler}{17}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Modell f\"{u}r feste Lernaufgaben}{17}{subsection.4.1.1}
+\contentsline {subsubsection}{Das ANFIS-Modell}{18}{section*.11}
+\contentsline {subsection}{\numberline {4.1.2}Modell mit verst\IeC {\"a}rkendem Lernen}{20}{subsection.4.1.2}
+\contentsline {subsubsection}{Das NEFCON-Modell}{20}{section*.12}
+\contentsline {subsubsection}{Erlernen einer Regelbasis}{21}{section*.13}
+\contentsline {subsubsection}{Top-Down- oder Reduktionsmethode zum Erlernen einer Regelbasis}{22}{section*.14}
+\contentsline {subsubsection}{Bottom-Up- oder Eliminationsmethode zum Erlernen einer Regelbasis}{22}{section*.15}
+\contentsline {subsubsection}{Optimierung der Regelbasis}{22}{section*.16}
+\contentsline {subsubsection}{Schlussworte}{23}{section*.17}
+\contentsline {chapter}{\numberline {5}Analyse der Ergebnisse}{24}{chapter.5}
+\contentsline {subsubsection}{Stochastic Gradient Descent}{25}{section*.18}
+\contentsline {subsubsection}{Mini-Batch Gradient Descent}{25}{section*.19}
+\contentsline {subsubsection}{Batch Gradient Descent}{25}{section*.20}
+\contentsline {section}{\numberline {5.1}Lernen der Sinusfunktion mit Stochastic Gradient Descent}{25}{section.5.1}
+\contentsline {subsubsection}{Lernen eines Models mit 2 Fuzzy Sets und 1 Ablauf}{26}{section*.21}
+\contentsline {subsubsection}{Lernen eines Models mit 2 Fuzzy Sets und 10 Abl\IeC {\"a}ufe}{28}{section*.22}
+\contentsline {subsubsection}{Lernen eines Models mit 8 Fuzzy Sets und 10 Abl\IeC {\"a}ufe}{30}{section*.23}
+\contentsline {subsection}{\numberline {5.1.1}Fazit}{32}{subsection.5.1.1}
+\contentsline {section}{\numberline {5.2}Lernen der Sinusfunktion mit Mini-Batch Gradient Descent}{33}{section.5.2}
+\contentsline {subsubsection}{Lernen der Sinusfunktion mit 2 Fuzzy-Sets und 1 Ablauf}{33}{section*.24}
+\contentsline {subsubsection}{Lernen der Sinusfunktion mit 2 Fuzzy-Sets und 10 Ablauf}{35}{section*.25}
+\contentsline {subsubsection}{Lernen der Sinusfunktion mit 2 Fuzzy-Sets und 1000 Abl\IeC {\"a}ufe}{36}{section*.26}
+\contentsline {section}{\numberline {5.3}Lernen der Parabelfunktion}{38}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Lernen der Parabelfunktion mit Mini-Batch Gradient Descent}{39}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Fazit}{42}{subsection.5.3.2}
+\contentsline {chapter}{Literaturverzeichnis}{43}{chapter*.27}
+\contentsline {chapter}{Glossar}{44}{appendix.A}

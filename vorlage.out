@@ -1,0 +1,33 @@
+\BOOKMARK [0][-]{chapter.1}{Einleitung und Problemstellung}{}% 1
+\BOOKMARK [0][-]{chapter.2}{Unscharfe Daten und Fuzzy-Logik}{}% 2
+\BOOKMARK [1][-]{section.2.1}{Fuzzy-Logik}{chapter.2}% 3
+\BOOKMARK [2][-]{subsection.2.1.1}{Fuzzy-Sets}{section.2.1}% 4
+\BOOKMARK [1][-]{section.2.2}{Operationen auf Fuzzy-Sets}{chapter.2}% 5
+\BOOKMARK [2][-]{subsection.2.2.1}{Durchscnitt}{section.2.2}% 6
+\BOOKMARK [2][-]{subsection.2.2.2}{Vereinigung}{section.2.2}% 7
+\BOOKMARK [2][-]{subsection.2.2.3}{Komplement}{section.2.2}% 8
+\BOOKMARK [2][-]{subsection.2.2.4}{Zusammenfassung}{section.2.2}% 9
+\BOOKMARK [1][-]{section.2.3}{Fuzzy-Systeme}{chapter.2}% 10
+\BOOKMARK [2][-]{subsection.2.3.1}{Mamdani-Regler}{section.2.3}% 11
+\BOOKMARK [2][-]{subsection.2.3.2}{Takagi-Sugeno-Kang-Modell}{section.2.3}% 12
+\BOOKMARK [2][-]{subsection.2.3.3}{Fuzzifizierung und Defuzzifizierung}{section.2.3}% 13
+\BOOKMARK [0][-]{chapter.3}{K\374nstliche Neuronale Netze}{}% 14
+\BOOKMARK [1][-]{section.3.1}{Biologische Grundlagen}{chapter.3}% 15
+\BOOKMARK [1][-]{section.3.2}{Neuron in K\374nstlichen Neuronalen Netzen}{chapter.3}% 16
+\BOOKMARK [1][-]{section.3.3}{Lernen}{chapter.3}% 17
+\BOOKMARK [2][-]{subsection.3.3.1}{Unsupervised Learning}{section.3.3}% 18
+\BOOKMARK [2][-]{subsection.3.3.2}{Supervised Learning}{section.3.3}% 19
+\BOOKMARK [1][-]{section.3.4}{Schl\374sse}{chapter.3}% 20
+\BOOKMARK [0][-]{chapter.4}{Neuro-Fuzzy-Systeme}{}% 21
+\BOOKMARK [1][-]{section.4.1}{Neuro-Fuzzy-Regler}{chapter.4}% 22
+\BOOKMARK [2][-]{subsection.4.1.1}{Modell f\374r feste Lernaufgaben}{section.4.1}% 23
+\BOOKMARK [2][-]{subsection.4.1.2}{Modell mit verst\344rkendem Lernen}{section.4.1}% 24
+\BOOKMARK [0][-]{chapter.5}{Analyse der Ergebnisse}{}% 25
+\BOOKMARK [1][-]{section.5.1}{Lernen der Sinusfunktion mit Stochastic Gradient Descent}{chapter.5}% 26
+\BOOKMARK [2][-]{subsection.5.1.1}{Fazit}{section.5.1}% 27
+\BOOKMARK [1][-]{section.5.2}{Lernen der Sinusfunktion mit Mini-Batch Gradient Descent}{chapter.5}% 28
+\BOOKMARK [1][-]{section.5.3}{Lernen der Parabelfunktion}{chapter.5}% 29
+\BOOKMARK [2][-]{subsection.5.3.1}{Lernen der Parabelfunktion mit Mini-Batch Gradient Descent}{section.5.3}% 30
+\BOOKMARK [2][-]{subsection.5.3.2}{Fazit}{section.5.3}% 31
+\BOOKMARK [0][-]{chapter*.27}{Literaturverzeichnis}{}% 32
+\BOOKMARK [0][-]{appendix.A}{Glossar}{}% 33

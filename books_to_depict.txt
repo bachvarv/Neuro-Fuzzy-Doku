@@ -1,0 +1,7 @@
+S.46 bis S.47 (TSK) und S.230 bis S.235 (ANFIS) im Buch: "Neuro-Fuzzy-Methoden" - QN:f10696
+
+S.108 bis S.112 (TSK) und S.216 bsi S.228(ANFIS) im Buch: "Soft Computing" - QA: f11802
+
+S.81 bis S.84 (TSK) und S.335 bis S.345 (ANFIS) im Buch "Neuro-Fuzzy and Soft Computing" - f10807
+
+library genesis
