@@ -41,6 +41,7 @@
 \usepackage{amsthm}
 \usepackage{csvtools}
 \usepackage{kbordermatrix}
+\usepackage{caption}
 
 %-----------------------------------------------------
 \usepackage{listings} 			% Code-Darstellung
@@ -68,6 +69,8 @@
 \usepackage[a4paper]{geometry} % Andere Formatierung
 \usepackage{bibgerm}
 \usepackage{array}
+\usepackage{algorithm}
+\usepackage{algorithmic}
 \hyphenation{Ele-men-tar-ob-jek-te  ab-ge-tas-tet Aus-wer-tung House-holder-Matrix Le-ast-Squa-res-Al-go-ri-th-men} 		% Weitere Silbentrennung bei Bedarf angeben
 \setlength{\textheight}{1.1\textheight}
 \pagestyle{myheadings} 			% Erzeugt selbstdefinierte Kopfzeile
@@ -105,9 +108,11 @@
 %--------------------------------------------------------------------------
 % Die Kapitel werden in separaten .tex-Dateien abgelegt und hier eingebunden.
 \input{chapters/EinleitungProblemstellung}
-\input{chapters/WeitereKapitel}
-\input{chapters/NeuralNetworks}
-\input{chapters/Neuro-Fuzzy-Systeme}
+\input{chapters/Grundlagen}
+%\input{chapters/WeitereKapitel}
+%\input{chapters/NeuralNetworks}
+%\input{chapters/Neuro-Fuzzy-Systeme}
+\input{chapters/NFLayers}
 \input{chapters/TestAnalyse}
 %\input{chapters/Bausteine}
 %\input{chapters/Beispiel}
@@ -122,7 +127,8 @@
 \printindex 							% Index (optional)
 %--------------------------------------------------------------------------
 \begin{appendix}						% Anh�nge sind i.d.R. optional
-   \include{chapters/Glossar}			% Glossar   
+%   \include{chapters/Glossar}			% Glossar   
+%\include{chapters/Anhang}
 \end{appendix}
 
 \end{document}

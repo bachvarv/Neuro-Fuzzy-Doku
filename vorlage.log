@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.2.21)  21 SEP 2019 16:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.2.21)  5 NOV 2019 18:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1009,24 +1009,57 @@ Package: kbordermatrix 2011/09/21 Bordered matrix with brackets
 \br@kwd=\skip58
 \k@bordht=\skip59
 )
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen150
+\captionmargin@=\dimen151
+\captionwidth=\dimen152
+\caption@tempdima=\dimen153
+\caption@indent=\dimen154
+\caption@parindent=\dimen155
+\caption@hangindent=\dimen156
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+)
+
+Package caption Warning: Unsupported document class (or package) detected,
+(caption)                usage of the caption package is not recommended.
+See the caption package documentation for explanation.
+
+Package caption Info: \@makecaption = \long macro:#1#2->\captionstyle \ifx \@ca
+ptype \fig@type \vskip \figcapgap \fi \setbox \@tempboxa \hbox {{\floatlegendst
+yle #1\floatcounterend }\capstrut #2}\ifdim \wd \@tempboxa >\hsize {\floatlegen
+dstyle #1\floatcounterend }\capstrut #2\par \else \hbox to\hsize {\leftlegendgl
+ue \unhbox \@tempboxa \hfil }\fi \ifx \@captype \fig@type \else \vskip \tabcapg
+ap \fi .
+\c@ContinuedFloat=\count135
+Package caption Info: hyperref package is loaded.
+Package caption Info: longtable package is loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
+))
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count135
+\lst@mode=\count136
 \lst@gtempboxa=\box58
 \lst@token=\toks29
-\lst@length=\count136
-\lst@currlwidth=\dimen150
-\lst@column=\count137
-\lst@pos=\count138
-\lst@lostspace=\dimen151
-\lst@width=\dimen152
-\lst@newlines=\count139
-\lst@lineno=\count140
-\lst@maxwidth=\dimen153
+\lst@length=\count137
+\lst@currlwidth=\dimen157
+\lst@column=\count138
+\lst@pos=\count139
+\lst@lostspace=\dimen158
+\lst@width=\dimen159
+\lst@newlines=\count140
+\lst@lineno=\count141
+\lst@maxwidth=\dimen160
 
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-\c@lstnumber=\count141
-\lst@skipnumbers=\count142
+\c@lstnumber=\count142
+\lst@skipnumbers=\count143
 \lst@framebox=\box59
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
@@ -1385,12 +1418,12 @@ or  <return>  to continue without it.
 
 ) (/usr/share/texlive/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty
 Package: algorithm2e 2017/07/18 v5.2 algorithms environments
-\c@AlgoLine=\count143
+\c@AlgoLine=\count144
 \algocf@hangindent=\skip60
 
 (/usr/share/texlive/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
-\c@checkoddpage=\count144
+\c@checkoddpage=\count145
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
@@ -1406,12 +1439,12 @@ Package: relsize 2013/03/29 ver 4.1
 \skiplength=\skip66
 \algomargin=\skip67
 \skipalgocfslide=\skip68
-\algowidth=\dimen154
-\inoutsize=\dimen155
-\inoutindent=\dimen156
-\interspacetitleruled=\dimen157
-\interspacealgoruled=\dimen158
-\interspacetitleboxruled=\dimen159
+\algowidth=\dimen161
+\inoutsize=\dimen162
+\inoutindent=\dimen163
+\interspacetitleruled=\dimen164
+\interspacealgoruled=\dimen165
+\interspacetitleboxruled=\dimen166
 \algocf@ruledwidth=\skip69
 \algocf@inoutbox=\box60
 \algocf@inputbox=\box61
@@ -1428,25 +1461,25 @@ Package: relsize 2013/03/29 ver 4.1
 \algoheightrule=\skip76
 \algotitleheightruledefault=\skip77
 \algotitleheightrule=\skip78
-\c@algocfline=\count145
-\c@algocfproc=\count146
-\c@algocf=\count147
+\c@algocfline=\count146
+\c@algocfproc=\count147
+\c@algocf=\count148
 \algocf@algoframe=\box66
 \algocf@algobox=\box67
 )
 (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
-\Gm@cnth=\count148
-\Gm@cntv=\count149
-\c@Gm@tempcnt=\count150
-\Gm@bindingoffset=\dimen160
-\Gm@wd@mp=\dimen161
-\Gm@odd@mp=\dimen162
-\Gm@even@mp=\dimen163
-\Gm@layoutwidth=\dimen164
-\Gm@layoutheight=\dimen165
-\Gm@layouthoffset=\dimen166
-\Gm@layoutvoffset=\dimen167
+\Gm@cnth=\count149
+\Gm@cntv=\count150
+\c@Gm@tempcnt=\count151
+\Gm@bindingoffset=\dimen167
+\Gm@wd@mp=\dimen168
+\Gm@odd@mp=\dimen169
+\Gm@even@mp=\dimen170
+\Gm@layoutwidth=\dimen171
+\Gm@layoutheight=\dimen172
+\Gm@layouthoffset=\dimen173
+\Gm@layoutvoffset=\dimen174
 \Gm@dimlist=\toks30
 )
 (/usr/share/texlive/texmf-dist/tex/latex/germbib/bibgerm.sty
@@ -1458,69 +1491,106 @@ Package: bibgerm 2000/08/18 v0.1 Support for mixed language bibliographies
 ** Modified for ngerman.sty and babel.sty by H. Harders 21 August 2000 **)
 (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
 Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
-\col@sep=\dimen168
-\extrarowheight=\dimen169
+\col@sep=\dimen175
+\extrarowheight=\dimen176
 \NC@list=\toks31
 \extratabsurround=\skip79
 \backup@length=\skip80
+)
+(/usr/share/texlive/texmf-dist/tex/latex/algorithms/algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count152
+\float@exts=\toks32
+\float@box=\box68
+\@float@everytoks=\toks33
+\@floatcapt=\box69
+)
+\@float@every@algorithm=\toks34
+\c@algorithm=\count153
+
+
+! LaTeX Error: Command \listofalgorithms already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.97 ...s}{\listof{algorithm}{\listalgorithmname}}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+) (/usr/share/texlive/texmf-dist/tex/latex/algorithms/algorithmic.sty
+Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
+\c@ALC@unique=\count154
+\c@ALC@line=\count155
+\c@ALC@rem=\count156
+\c@ALC@depth=\count157
+\ALC@tlm=\skip81
+\algorithmicindent=\skip82
 )
 \@indexfile=\write3
 \openout3 = `vorlage.idx'.
 
 
 Writing index file vorlage.idx
-(./vorlage.aux (./chapters/Glossar.aux))
+(./vorlage.aux)
 \openout1 = `vorlage.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 78.
-LaTeX Font Info:    ... okay on input line 78.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 78.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 78.
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 81.
+LaTeX Font Info:    ... okay on input line 81.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 81.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 81.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    ... okay on input line 81.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count151
-\scratchdimen=\dimen170
-\scratchbox=\box68
-\nofMPsegments=\count152
-\nofMParguments=\count153
-\everyMPshowfont=\toks32
-\MPscratchCnt=\count154
-\MPscratchDim=\dimen171
-\MPnumerator=\count155
-\makeMPintoPDFobject=\count156
-\everyMPtoPDFconversion=\toks33
+\scratchcounter=\count158
+\scratchdimen=\dimen177
+\scratchbox=\box70
+\nofMPsegments=\count159
+\nofMParguments=\count160
+\everyMPshowfont=\toks35
+\MPscratchCnt=\count161
+\MPscratchDim=\dimen178
+\MPnumerator=\count162
+\makeMPintoPDFobject=\count163
+\everyMPtoPDFconversion=\toks36
 )
-\AtBeginShipoutBox=\box69
-Package hyperref Info: Link coloring OFF on input line 78.
+\AtBeginShipoutBox=\box71
+Package hyperref Info: Link coloring OFF on input line 81.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count157
+\c@section@level=\count164
 )
-LaTeX Info: Redefining \ref on input line 78.
-LaTeX Info: Redefining \pageref on input line 78.
-LaTeX Info: Redefining \nameref on input line 78.
+LaTeX Info: Redefining \ref on input line 81.
+LaTeX Info: Redefining \pageref on input line 81.
+LaTeX Info: Redefining \nameref on input line 81.
 
 (./vorlage.out) (./vorlage.out)
 \@outlinefile=\write4
@@ -1528,7 +1598,11 @@ LaTeX Info: Redefining \nameref on input line 78.
 
 
 Man spricht deutsch.
-\c@lstlisting=\count158
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\c@lstlisting=\count165
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1575,14 +1649,14 @@ to.pdf>
 (epstopdf)                    size: 15230 bytes
 (epstopdf)             Command: <repstopdf --outfile=Logo_Hauptcampus_Informati
 k-eps-converted-to.pdf Logo_Hauptcampus_Informatik.eps>
-(epstopdf)             \includegraphics on input line 95.
+(epstopdf)             \includegraphics on input line 98.
 Package epstopdf Info: Output file is already uptodate.
-<Logo_Hauptcampus_Informatik-eps-converted-to.pdf, id=136, 812.03375pt x 157.58
+<Logo_Hauptcampus_Informatik-eps-converted-to.pdf, id=200, 812.03375pt x 157.58
 875pt>
 File: Logo_Hauptcampus_Informatik-eps-converted-to.pdf Graphic file (type pdf)
 <use Logo_Hauptcampus_Informatik-eps-converted-to.pdf>
 Package pdftex.def Info: Logo_Hauptcampus_Informatik-eps-converted-to.pdf  used
- on input line 95.
+ on input line 98.
 (pdftex.def)             Requested size: 292.77629pt x 56.81606pt.
 [1
 
@@ -1599,30 +1673,73 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 2.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
-! Package inputenc Error: Unicode char ägn (U+D9)
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `utf8'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 ...r das Modell zu implementieren und seine Mö
+                                                  glichkeiten zu testen. Im ...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `utf8'.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 Vorerst wird aber mit einer kurzen Einfü
+                                            hrung in Fuzzy-Logik und Fuzzy-S...
+
+You need to provide a definition with \DeclareInputText 
+or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Unicode char äch (U+CF)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.5 In der Kurzfassung soll in kurzer und prägn
-                                               anter Weise der wesentliche I...
+l.8 ... Fuzzy-Logik und Fuzzy-Systeme. In den näch
+                                                  sten Kapitel wird auf Neur...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-! Package inputenc Error: Unicode char ähl (U+D8)
+! Package inputenc Error: Unicode char äft (U+DE)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.5 ...lt der Arbeit beschrieben werden. Dazu zähl
-                                                  en vor allem eine kurze Au...
+l.8 ...ronale Netze eingegangen. Folglich beschäft
+                                                  ige ich mich mit den unter...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char äll (U+DC)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 ...r Ausarbeitung. Da aber nicht alle Testfäll
+                                                  e betrachtet und analysier...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1636,26 +1753,11 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.5 ...lem eine kurze Aufgabenbeschreibung, der Lö
-                                                  sungsansatz sowie die wese...
+l.8 ...stfälle betrachtet und analysiert werden kö
+                                                  nnen, wird ein Anhang hinz...
 
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Unicode char äuf (U+DF)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5 ...esentlichen Ergebnisse der Arbeit. Ein häuf
-                                                  iger Fehler für die Kurzfa...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
 
 
 ! Package inputenc Error: Keyboard character used is undefined
@@ -1665,11 +1767,41 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.5 ...gebnisse der Arbeit. Ein häufiger Fehler fü
-                                                  r die Kurzfassung ist, das...
+l.8 ...rt werden können, wird ein Anhang hinzugefü
+                                                  gt, wo alle zusätzlichen T...
 
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
+
+
+! Package inputenc Error: Unicode char ätz (U+F2)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 ...wird ein Anhang hinzugefügt, wo alle zusätz
+                                                  lichen Testfällen mit Erge...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char äll (U+DC)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 ... hinzugefügt, wo alle zusätzlichen Testfäll
+                                                  en mit Ergebnissen zu find...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 ) [2
 
@@ -1686,36 +1818,6 @@ or \DeclareInputMath before using this key.
  [4] (./chapters/EinleitungProblemstellung.tex
 Kapitel 1.
 
-! Package inputenc Error: Unicode char ärf (U+DC)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3 Das Thema dieser Ausarbeitung ist Unschärf
-                                              e Informationen, oder Fuzzy-Se...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char ße (U+84)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3 ...ts lassen sich schwammige Daten, wie "große
-                                                  " Zahlen oder "mittlere" T...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
 ! Package inputenc Error: Keyboard character used is undefined
 (inputenc)                in inputencoding `utf8'.
 
@@ -1723,140 +1825,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.3 ...roße" Zahlen oder "mittlere" Temperatur, fü
-                                                  r Maschinen, insbesondere ...
-
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `utf8'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3 ...ere Computern, beschreiben. Diese Mengen kö
-                                                  nnen dann von so genannten...
-
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `utf8'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3 ...rden. Somit zieht man bestimmte logische Rü
-                                                  ckschlüsse bezüglich einer...
-
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `utf8'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3 ...omit zieht man bestimmte logische Rückschlü
-                                                  sse bezüglich einer Eingab...
-
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `utf8'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3 ...ht man bestimmte logische Rückschlüsse bezü
-                                                  glich einer Eingabe. Als B...
-
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `utf8'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3 ...se bezüglich einer Eingabe. Als Beispiel kö
-                                                  nnte man die Farben von To...
-
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `utf8'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3 ... von Tomaten nehmen. Der Mensch kann mit hö
-                                                  her Richtigkeit entscheide...
-
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `utf8'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3 ...ntscheiden, welche Tomate denn reif ist. Fü
-                                                  r eine Maschine jedoch ist...
-
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `utf8'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3 ...rmation(Tomate ist Rot, also reif) nicht mö
-                                                  glich. Mit den Fuzzy-Sets ...
-
-You need to provide a definition with \DeclareInputText 
-or \DeclareInputMath before using this key.
-
-
-Overfull \hbox (23.99452pt too wide) in paragraph at lines 3--4
-\OT1/cmr/m/n/12 Fuzzy-Sets las-sen sich schwam-mi-ge Da-ten, wie "groS-Zah-len 
-oder "mitt-le-re"Temperatur,
- []
-
-
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `utf8'.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5 ...iebiger Fuzzy-Modelle zu optimieren. Das wü
-                                                  rde heißen, dass bei der M...
+l.3 ...it zieht man bestimmte logische R\"uckschlü
+                                                  sse bez\"uglich einer Eing...
 
 You need to provide a definition with \DeclareInputText 
 or \DeclareInputMath before using this key.
@@ -1869,99 +1839,70 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.5 ...uzzy-Modelle zu optimieren. Das würde heiße
+l.5 ...zy-Modelle zu optimieren. Das w\"urde heiße
                                                   n, dass bei der Mathematis...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-
-! Package inputenc Error: Unicode char ätz (U+F2)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.7 In dieser Ausarbeitung werden einige Ansätz
-                                               e vorgestellt. Schließlich wi...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! Package inputenc Error: Unicode char ßl (U+8B)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.7 ...werden einige Ansätze vorgestellt. Schließl
-                                                  ich wird eine Entscheidung...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-) (./chapters/WeitereKapitel.tex [1
+) (./chapters/Grundlagen.tex [1
 
 
 
 
 ]
 Kapitel 2.
-LaTeX Font Info:    Try loading font information for U+euf on input line 34.
+LaTeX Font Info:    Try loading font information for U+euf on input line 20.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/ueuf.fd
 File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
 )
-<images/classic_logic.png, id=210, 462.528pt x 346.896pt>
+<images/classic_logic.png, id=291, 289.08pt x 216.81pt>
 File: images/classic_logic.png Graphic file (type png)
 <use images/classic_logic.png>
-Package pdftex.def Info: images/classic_logic.png  used on input line 42.
-(pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
-<images/fuzz_logic.png, id=212, 462.528pt x 346.896pt>
-File: images/fuzz_logic.png Graphic file (type png)
-<use images/fuzz_logic.png>
-Package pdftex.def Info: images/fuzz_logic.png  used on input line 51.
-(pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
+Package pdftex.def Info: images/classic_logic.png  used on input line 28.
+(pdftex.def)             Requested size: 144.53964pt x 108.40472pt.
  [2
 
 
-] [3 <./images/classic_logic.png> <./images/fuzz_logic.png>]
-<images/mf_types.png, id=234, 462.528pt x 346.896pt>
+]
+<images/fuzz_logic.png, id=303, 289.08pt x 216.81pt>
+File: images/fuzz_logic.png Graphic file (type png)
+<use images/fuzz_logic.png>
+Package pdftex.def Info: images/fuzz_logic.png  used on input line 37.
+(pdftex.def)             Requested size: 144.53964pt x 108.40472pt.
+ [3 <./images/classic_logic.png> <./images/fuzz_logic.png>]
+<images/mf_types.png, id=320, 462.528pt x 346.896pt>
 File: images/mf_types.png Graphic file (type png)
 <use images/mf_types.png>
-Package pdftex.def Info: images/mf_types.png  used on input line 73.
+Package pdftex.def Info: images/mf_types.png  used on input line 59.
 (pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
- [4 <./images/mf_types.png>] [5]
-<images/und_high_middle_temp.png, id=259, 481.8pt x 361.35pt>
+ [4 <./images/mf_types.png>]
+<images/und_high_middle_temp.png, id=339, 481.8pt x 361.35pt>
 File: images/und_high_middle_temp.png Graphic file (type png)
 <use images/und_high_middle_temp.png>
-Package pdftex.def Info: images/und_high_middle_temp.png  used on input line 15
-9.
+Package pdftex.def Info: images/und_high_middle_temp.png  used on input line 14
+5.
 (pdftex.def)             Requested size: 240.8994pt x 180.67456pt.
-<images/oder_mid_high_temp.png, id=260, 481.8pt x 361.35pt>
+ [5]
+<images/oder_mid_high_temp.png, id=350, 481.8pt x 361.35pt>
 File: images/oder_mid_high_temp.png Graphic file (type png)
 <use images/oder_mid_high_temp.png>
-Package pdftex.def Info: images/oder_mid_high_temp.png  used on input line 191.
+Package pdftex.def Info: images/oder_mid_high_temp.png  used on input line 177.
 
 (pdftex.def)             Requested size: 240.8994pt x 180.67456pt.
 
 [6 <./images/und_high_middle_temp.png>]
-<images/not_high_temp.png, id=269, 462.528pt x 346.896pt>
+<images/not_high_temp.png, id=360, 462.528pt x 346.896pt>
 File: images/not_high_temp.png Graphic file (type png)
 <use images/not_high_temp.png>
-Package pdftex.def Info: images/not_high_temp.png  used on input line 214.
+Package pdftex.def Info: images/not_high_temp.png  used on input line 200.
 (pdftex.def)             Requested size: 231.26343pt x 173.44757pt.
- [7 <./images/oder_mid_high_temp.png>]
-[8 <./images/not_high_temp.png>]
+ [7 <./images/oder_mid_high_temp.png> <./images/not_high_temp.png>] [8]
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.280 		x \diagdown
+l.266 		x \diagdown
                     \ y & \ unreif & \ halbreif & \ reif \\ [0.5ex]
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1969,7 +1910,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.280 		x \diagdown \ y &
+l.266 		x \diagdown \ y &
                           \ unreif & \ halbreif & \ reif \\ [0.5ex]
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1980,7 +1921,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.297 		x \diagdown
+l.283 		x \diagdown
                     \ y & \ unreif & \ halbreif & \ reif \\ [0.5ex]
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1988,7 +1929,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.297 		x \diagdown \ y &
+l.283 		x \diagdown \ y &
                           \ unreif & \ halbreif & \ reif \\ [0.5ex]
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1998,24 +1939,24 @@ my insertion and my current dilemma will both disappear.
 
 [9]
 ! Too many }'s.
-l.318 \end{align}}
+l.304 \end{align}}
                   
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
 
 [10]
-Overfull \hbox (59.04831pt too wide) in paragraph at lines 354--355
+Overfull \hbox (59.04831pt too wide) in paragraph at lines 341--342
 \OT1/cmr/m/n/12 Aus-gangs-zu-geh[]origkeitsfunktionen, die aus meh-re-ren sym-m
 e-tri-schen Zu-geh[]origkeitsfunktionen
  []
 
 
-LaTeX Warning: Command \= invalid in math mode on input line 357.
+LaTeX Warning: Command \= invalid in math mode on input line 345.
 
 ! Please use \mathaccent for accents in math mode.
 \add@accent ...@spacefactor \spacefactor }\accent 
                                                   #1 #2\egroup \spacefactor ...
-l.357 \end{align}
+l.345 \end{align}
                  
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
@@ -2023,7 +1964,7 @@ I'm changing \accent to \mathaccent here; wish me luck.
 ! You can't use `\spacefactor' in math mode.
 \add@accent ...}\accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.357 \end{align}
+l.345 \end{align}
                  
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -2031,12 +1972,12 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 
-LaTeX Warning: Command \= invalid in math mode on input line 357.
+LaTeX Warning: Command \= invalid in math mode on input line 345.
 
 ! Please use \mathaccent for accents in math mode.
 \add@accent ...@spacefactor \spacefactor }\accent 
                                                   #1 #2\egroup \spacefactor ...
-l.357 \end{align}
+l.345 \end{align}
                  
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
@@ -2044,7 +1985,7 @@ I'm changing \accent to \mathaccent here; wish me luck.
 ! You can't use `\spacefactor' in math mode.
 \add@accent ...}\accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.357 \end{align}
+l.345 \end{align}
                  
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -2052,12 +1993,12 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 
-LaTeX Warning: Command \= invalid in math mode on input line 357.
+LaTeX Warning: Command \= invalid in math mode on input line 345.
 
 ! Please use \mathaccent for accents in math mode.
 \add@accent ...@spacefactor \spacefactor }\accent 
                                                   #1 #2\egroup \spacefactor ...
-l.357 \end{align}
+l.345 \end{align}
                  
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
@@ -2065,73 +2006,7 @@ I'm changing \accent to \mathaccent here; wish me luck.
 ! You can't use `\spacefactor' in math mode.
 \add@accent ...}\accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.357 \end{align}
-                 
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-Missing character: There is no è in font MnSymbolE12!
-Missing character: There is no è in font MnSymbolE12!
-Missing character: There is no è in font MnSymbolE12!
-
-LaTeX Warning: Command \= invalid in math mode on input line 357.
-
-! Please use \mathaccent for accents in math mode.
-\add@accent ...@spacefactor \spacefactor }\accent 
-                                                  #1 #2\egroup \spacefactor ...
-l.357 \end{align}
-                 
-I'm changing \accent to \mathaccent here; wish me luck.
-(Accents are not the same in formulas as they are in text.)
-
-! You can't use `\spacefactor' in math mode.
-\add@accent ...}\accent #1 #2\egroup \spacefactor 
-                                                  \accent@spacefactor 
-l.357 \end{align}
-                 
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-
-LaTeX Warning: Command \= invalid in math mode on input line 357.
-
-! Please use \mathaccent for accents in math mode.
-\add@accent ...@spacefactor \spacefactor }\accent 
-                                                  #1 #2\egroup \spacefactor ...
-l.357 \end{align}
-                 
-I'm changing \accent to \mathaccent here; wish me luck.
-(Accents are not the same in formulas as they are in text.)
-
-! You can't use `\spacefactor' in math mode.
-\add@accent ...}\accent #1 #2\egroup \spacefactor 
-                                                  \accent@spacefactor 
-l.357 \end{align}
-                 
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-
-LaTeX Warning: Command \= invalid in math mode on input line 357.
-
-! Please use \mathaccent for accents in math mode.
-\add@accent ...@spacefactor \spacefactor }\accent 
-                                                  #1 #2\egroup \spacefactor ...
-l.357 \end{align}
-                 
-I'm changing \accent to \mathaccent here; wish me luck.
-(Accents are not the same in formulas as they are in text.)
-
-! You can't use `\spacefactor' in math mode.
-\add@accent ...}\accent #1 #2\egroup \spacefactor 
-                                                  \accent@spacefactor 
-l.357 \end{align}
+l.345 \end{align}
                  
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -2142,12 +2017,78 @@ Missing character: There is no è in font MnSymbolE12!
 Missing character: There is no è in font MnSymbolE12!
 Missing character: There is no è in font MnSymbolE12!
 
-LaTeX Warning: Command \= invalid in math mode on input line 359.
+LaTeX Warning: Command \= invalid in math mode on input line 345.
 
 ! Please use \mathaccent for accents in math mode.
 \add@accent ...@spacefactor \spacefactor }\accent 
                                                   #1 #2\egroup \spacefactor ...
-l.359 ...ktion $\mu_i$ wird duch den Wert von $\=y
+l.345 \end{align}
+                 
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+! You can't use `\spacefactor' in math mode.
+\add@accent ...}\accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.345 \end{align}
+                 
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+LaTeX Warning: Command \= invalid in math mode on input line 345.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ...@spacefactor \spacefactor }\accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.345 \end{align}
+                 
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+! You can't use `\spacefactor' in math mode.
+\add@accent ...}\accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.345 \end{align}
+                 
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+LaTeX Warning: Command \= invalid in math mode on input line 345.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ...@spacefactor \spacefactor }\accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.345 \end{align}
+                 
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+! You can't use `\spacefactor' in math mode.
+\add@accent ...}\accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.345 \end{align}
+                 
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no è in font MnSymbolE12!
+Missing character: There is no è in font MnSymbolE12!
+Missing character: There is no è in font MnSymbolE12!
+
+LaTeX Warning: Command \= invalid in math mode on input line 347.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ...@spacefactor \spacefactor }\accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.347 ...tion $\mu_i$ wird durch den Wert von $\=y
                                                   $ beschrieben. \cite{SCTem...
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
@@ -2155,7 +2096,7 @@ I'm changing \accent to \mathaccent here; wish me luck.
 ! You can't use `\spacefactor' in math mode.
 \add@accent ...}\accent #1 #2\egroup \spacefactor 
                                                   \accent@spacefactor 
-l.359 ...ktion $\mu_i$ wird duch den Wert von $\=y
+l.347 ...tion $\mu_i$ wird durch den Wert von $\=y
                                                   $ beschrieben. \cite{SCTem...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -2164,109 +2105,108 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 
 Missing character: There is no è in font MnSymbolE12!
 [11]
-<images/TSK_Modell.png, id=332, 700.6175pt x 193.72375pt>
+<images/TSK_Modell.png, id=425, 700.6175pt x 193.72375pt>
 File: images/TSK_Modell.png Graphic file (type png)
 <use images/TSK_Modell.png>
-Package pdftex.def Info: images/TSK_Modell.png  used on input line 371.
+Package pdftex.def Info: images/TSK_Modell.png  used on input line 359.
 (pdftex.def)             Requested size: 350.30789pt x 96.86163pt.
-) (./chapters/NeuralNetworks.tex [12 <./images/TSK_Modell.png>]
-Kapitel 3.
-<images/Neuron_(deutsch)-1.png, id=346, 1284.8pt x 690.58pt>
+ [12 <./images/TSK_Modell.png>]
+<images/Neuron_(deutsch)-1.png, id=440, 1284.8pt x 690.58pt>
 File: images/Neuron_(deutsch)-1.png Graphic file (type png)
 <use images/Neuron_(deutsch)-1.png>
-Package pdftex.def Info: images/Neuron_(deutsch)-1.png  used on input line 13.
+Package pdftex.def Info: images/Neuron_(deutsch)-1.png  used on input line 400.
+
 (pdftex.def)             Requested size: 256.95544pt x 138.11354pt.
-[13
-
-
-] [14 <./images/Neuron_(deutsch)-1.png>] [15]
-Overfull \hbox (4.79906pt too wide) in paragraph at lines 73--74
+ [13 <./images/Neuron_(deutsch)-1.png>]
+[14]
+Overfull \hbox (4.79906pt too wide) in paragraph at lines 461--462
 []\OT1/cmr/m/n/12 Beginnend mit der letz-ten Schicht be-rech-ne den Wert der Ab
 -lei-tung $\OML/cmm/m/it/12 ^^N[]$ \OT1/cmr/m/n/12 r[]uckwerts. 
  []
 
-) (./chapters/Neuro-Fuzzy-Systeme.tex [16]
-Kapitel 4.
-[17
+[15] [16]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 503--515
+[]$[]$
+ []
 
-
-]
-<images/ANFIS_Abb.png, id=415, 627.34375pt x 297.11pt>
+<images/ANFIS_Abb.png, id=507, 627.34375pt x 297.11pt>
 File: images/ANFIS_Abb.png Graphic file (type png)
 <use images/ANFIS_Abb.png>
-Package pdftex.def Info: images/ANFIS_Abb.png  used on input line 48.
+Package pdftex.def Info: images/ANFIS_Abb.png  used on input line 531.
 (pdftex.def)             Requested size: 313.6711pt x 148.55463pt.
- [18] [19 <./images/ANFIS_Abb.png>]
-<images/nefcon_abb.png, id=444, 641.39626pt x 283.0575pt>
+[17] [18 <./images/ANFIS_Abb.png>]
+<images/nefcon_abb.png, id=536, 641.39626pt x 283.0575pt>
 File: images/nefcon_abb.png Graphic file (type png)
 <use images/nefcon_abb.png>
-Package pdftex.def Info: images/nefcon_abb.png  used on input line 98.
+Package pdftex.def Info: images/nefcon_abb.png  used on input line 598.
 (pdftex.def)             Requested size: 320.69734pt x 141.5284pt.
- [20] [21 <./images/nefcon_abb.png>]
-[22]) (./chapters/TestAnalyse.tex [23]
-Kapitel 5.
-[24
+ [19] [20 <./images/nefcon_abb.png>] [21])
+(./chapters/NFLayers.tex [22]
+Kapitel 3.
+[23
 
 
-]
-<images/sinus.png, id=489, 289.08pt x 216.81pt>
+] (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+) [24]
+[25] [26]
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
+put line 149.
+<images/mf_with_parameters.png, id=658, 825.0825pt x 224.84pt>
+File: images/mf_with_parameters.png Graphic file (type png)
+<use images/mf_with_parameters.png>
+Package pdftex.def Info: images/mf_with_parameters.png  used on input line 172.
+
+(pdftex.def)             Requested size: 412.54024pt x 112.41972pt.
+ [27]
+Overfull \hbox (23.2376pt too wide) in paragraph at lines 206--218
+\OT1/cmr/m/n/12 Der zwei-te Pro-gramm-teil enth[]alt we-ni-ger Pro-gramm-co-de,
+ aber dau-ert un-ter Umst[]anden
+ []
+
+[28 <./images/mf_with_parameters.png>] [29] [30]) (./chapters/TestAnalyse.tex
+[31]
+Kapitel 4.
+[32
+
+
+] [33]
+<images/sinus.png, id=792, 289.08pt x 216.81pt>
 File: images/sinus.png Graphic file (type png)
 <use images/sinus.png>
 Package pdftex.def Info: images/sinus.png  used on input line 42.
 (pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
- [25]
+
 
 LaTeX Warning: File `images/sinus/Stochastic/sinus 1 Input 2 Sets 400 Epochs St
-ochastic Gradient Descent two equations mf.png' not found on input line 52.
+ochastic Gradient Descent two equations mf.png' not found on input line 53.
 
 <images/sinus/Stochastic/sinus 1 Input 2 Sets 400 Epochs Stochastic Gradient De
-scent two equations mf.png, id=499, 722.7pt x 650.43pt>
+scent two equations mf.png, id=795, 722.7pt x 650.43pt>
 File: images/sinus/Stochastic/sinus 1 Input 2 Sets 400 Epochs Stochastic Gradie
 nt Descent two equations mf.png Graphic file (type png)
 <use images/sinus/Stochastic/sinus 1 Input 2 Sets 400 Epochs Stochastic Gradien
 t Descent two equations mf.png>
 Package pdftex.def Info: images/sinus/Stochastic/sinus 1 Input 2 Sets 400 Epoch
-s Stochastic Gradient Descent two equations mf.png  used on input line 52.
-(pdftex.def)             Requested size: 313.69025pt x 282.31943pt.
+s Stochastic Gradient Descent two equations mf.png  used on input line 53.
+(pdftex.def)             Requested size: 271.86234pt x 244.67485pt.
 
 LaTeX Warning: File `images/sinus/Stochastic/sinus 1 Input 2 Sets 400 Epochs St
-ochastic Gradient Descent one equation mf.png' not found on input line 60.
+ochastic Gradient Descent one equation mf.png' not found on input line 61.
 
 <images/sinus/Stochastic/sinus 1 Input 2 Sets 400 Epochs Stochastic Gradient De
-scent one equation mf.png, id=500, 722.7pt x 650.43pt>
+scent one equation mf.png, id=796, 722.7pt x 650.43pt>
 File: images/sinus/Stochastic/sinus 1 Input 2 Sets 400 Epochs Stochastic Gradie
 nt Descent one equation mf.png Graphic file (type png)
 <use images/sinus/Stochastic/sinus 1 Input 2 Sets 400 Epochs Stochastic Gradien
 t Descent one equation mf.png>
 Package pdftex.def Info: images/sinus/Stochastic/sinus 1 Input 2 Sets 400 Epoch
-s Stochastic Gradient Descent one equation mf.png  used on input line 60.
-(pdftex.def)             Requested size: 313.69025pt x 282.31943pt.
-
-Underfull \hbox (badness 2302) in paragraph at lines 72--72
-\OT1/cmr/m/n/12 Sto-cha-stic Gra-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 72--72
-\OT1/cmr/m/n/12 di-ent De-scent
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 72--72
-\OT1/cmr/m/n/12 two equa-ti-ons
- []
-
-
-Underfull \hbox (badness 2302) in paragraph at lines 72--72
-[]|\OT1/cmr/m/n/12 Stochastic Gra-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 72--73
-[]|\OT1/cmr/m/n/12 two equa-ti-ons
- []
-
-
+s Stochastic Gradient Descent one equation mf.png  used on input line 61.
+(pdftex.def)             Requested size: 271.86234pt x 244.67485pt.
+[34 <./images/sinus.png>] [35 <./images/sinus/Stochastic/sinus 1 Input 2 Sets 4
+00 Epochs Stochastic Gradient Descent two equations mf.png> <./images/sinus/Sto
+chastic/sinus 1 Input 2 Sets 400 Epochs Stochastic Gradient Descent one equatio
+n mf.png>]
 Underfull \hbox (badness 2302) in paragraph at lines 74--74
 \OT1/cmr/m/n/12 Sto-cha-stic Gra-
  []
@@ -2277,492 +2217,743 @@ Underfull \hbox (badness 10000) in paragraph at lines 74--74
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
+\OT1/cmr/m/n/12 two equa-ti-ons
+ []
+
+
 Underfull \hbox (badness 2302) in paragraph at lines 74--74
 []|\OT1/cmr/m/n/12 Stochastic Gra-
  []
 
 
-Overfull \hbox (19.1319pt too wide) in paragraph at lines 69--77
- [] 
+Underfull \hbox (badness 10000) in paragraph at lines 74--75
+[]|\OT1/cmr/m/n/12 two equa-ti-ons
  []
 
-[26 <./images/sinus.png>] [27 <./images/sinus/Stochastic/sinus 1 Input 2 Sets 4
-00 Epochs Stochastic Gradient Descent two equations mf.png> <./images/sinus/Sto
-chastic/sinus 1 Input 2 Sets 400 Epochs Stochastic Gradient Descent one equatio
-n mf.png>]
+
+Underfull \hbox (badness 2302) in paragraph at lines 76--76
+\OT1/cmr/m/n/12 Sto-cha-stic Gra-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
+\OT1/cmr/m/n/12 di-ent De-scent
+ []
+
+
+Underfull \hbox (badness 2302) in paragraph at lines 76--76
+[]|\OT1/cmr/m/n/12 Stochastic Gra-
+ []
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 79.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (19.1319pt too wide) in paragraph at lines 71--79
+[][] 
+ []
+
 
 LaTeX Warning: File `images/sinus/Stochastic/sinus 1 Input 2 Sets 4000 Epochs S
-tochastic Gradient Descent two equations mf.png' not found on input line 114.
+tochastic Gradient Descent two equations mf.png' not found on input line 118.
 
 <images/sinus/Stochastic/sinus 1 Input 2 Sets 4000 Epochs Stochastic Gradient D
-escent two equations mf.png, id=519, 722.7pt x 650.43pt>
+escent two equations mf.png, id=820, 722.7pt x 650.43pt>
 File: images/sinus/Stochastic/sinus 1 Input 2 Sets 4000 Epochs Stochastic Gradi
 ent Descent two equations mf.png Graphic file (type png)
 <use images/sinus/Stochastic/sinus 1 Input 2 Sets 4000 Epochs Stochastic Gradie
 nt Descent two equations mf.png>
 Package pdftex.def Info: images/sinus/Stochastic/sinus 1 Input 2 Sets 4000 Epoc
-hs Stochastic Gradient Descent two equations mf.png  used on input line 114.
-(pdftex.def)             Requested size: 313.69025pt x 282.31943pt.
+hs Stochastic Gradient Descent two equations mf.png  used on input line 118.
+(pdftex.def)             Requested size: 271.86234pt x 244.67485pt.
 
 LaTeX Warning: File `images/sinus/Stochastic/sinus 1 Input 2 Sets 4000 Epochs S
-tochastic Gradient Descent one equation mf.png' not found on input line 119.
+tochastic Gradient Descent one equation mf.png' not found on input line 123.
 
 <images/sinus/Stochastic/sinus 1 Input 2 Sets 4000 Epochs Stochastic Gradient D
-escent one equation mf.png, id=520, 722.7pt x 650.43pt>
+escent one equation mf.png, id=821, 722.7pt x 650.43pt>
 File: images/sinus/Stochastic/sinus 1 Input 2 Sets 4000 Epochs Stochastic Gradi
 ent Descent one equation mf.png Graphic file (type png)
 <use images/sinus/Stochastic/sinus 1 Input 2 Sets 4000 Epochs Stochastic Gradie
 nt Descent one equation mf.png>
 Package pdftex.def Info: images/sinus/Stochastic/sinus 1 Input 2 Sets 4000 Epoc
-hs Stochastic Gradient Descent one equation mf.png  used on input line 119.
-(pdftex.def)             Requested size: 313.69025pt x 282.31943pt.
-[28] [29 <./images/sinus/Stochastic/sinus 1 Input 2 Sets 4000 Epochs Stochastic
+hs Stochastic Gradient Descent one equation mf.png  used on input line 123.
+(pdftex.def)             Requested size: 271.86234pt x 244.67485pt.
+Runaway argument?
+{\ref {mf_1:10} sind die Konklusionen entsprechend fÃ¼r die Modelle M\ETC.
+! Paragraph ended before \T@ref was complete.
+<to be read again> 
+                   \par 
+l.135 
+      
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+[36] [37 <./images/sinus/Stochastic/sinus 1 Input 2 Sets 4000 Epochs Stochastic
  Gradient Descent two equations mf.png> <./images/sinus/Stochastic/sinus 1 Inpu
 t 2 Sets 4000 Epochs Stochastic Gradient Descent one equation mf.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 157--157
+Underfull \hbox (badness 10000) in paragraph at lines 162--162
 []|\OT1/cmr/m/n/12 sinus 1 In-put
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--157
+Underfull \hbox (badness 10000) in paragraph at lines 162--162
 \OT1/cmr/m/n/12 2 Sets 4000
  []
 
 
-Underfull \hbox (badness 2617) in paragraph at lines 157--157
+Underfull \hbox (badness 2617) in paragraph at lines 162--162
 \OT1/cmr/m/n/12 Epochs Sto-cha-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--157
+Underfull \hbox (badness 10000) in paragraph at lines 162--162
 \OT1/cmr/m/n/12 stic Gra-di-ent
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--157
+Underfull \hbox (badness 10000) in paragraph at lines 162--162
 \OT1/cmr/m/n/12 De-scent two
  []
 
 
-Underfull \hbox (badness 2302) in paragraph at lines 157--157
+Underfull \hbox (badness 2302) in paragraph at lines 162--162
 []|\OT1/cmr/m/n/12 Stochastic Gra-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--158
+Underfull \hbox (badness 10000) in paragraph at lines 162--163
 []|\OT1/cmr/m/n/12 two equa-ti-ons
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 159--159
+Underfull \hbox (badness 10000) in paragraph at lines 164--164
 []|\OT1/cmr/m/n/12 sinus 1 In-put
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 159--159
+Underfull \hbox (badness 10000) in paragraph at lines 164--164
 \OT1/cmr/m/n/12 2 Sets 4000
  []
 
 
-Underfull \hbox (badness 2617) in paragraph at lines 159--159
+Underfull \hbox (badness 2617) in paragraph at lines 164--164
 \OT1/cmr/m/n/12 Epochs Sto-cha-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 159--159
+Underfull \hbox (badness 10000) in paragraph at lines 164--164
 \OT1/cmr/m/n/12 stic Gra-di-ent
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 159--159
+Underfull \hbox (badness 10000) in paragraph at lines 164--164
 \OT1/cmr/m/n/12 De-scent one
  []
 
 
-Underfull \hbox (badness 2302) in paragraph at lines 159--159
+Underfull \hbox (badness 2302) in paragraph at lines 164--164
 []|\OT1/cmr/m/n/12 Stochastic Gra-
  []
 
 
-Overfull \hbox (19.1319pt too wide) in paragraph at lines 154--161
- [] 
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 166.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (19.1319pt too wide) in paragraph at lines 159--166
+[][] 
  []
 
 
 LaTeX Warning: File `images/sinus/Stochastic/sinus 1 Input 8 Sets 4000 Epochs S
-tochastic Gradient Descent two equations mf.png' not found on input line 172.
+tochastic Gradient Descent two equations mf.png' not found on input line 179.
 
 <images/sinus/Stochastic/sinus 1 Input 8 Sets 4000 Epochs Stochastic Gradient D
-escent two equations mf.png, id=541, 722.7pt x 650.43pt>
+escent two equations mf.png, id=844, 722.7pt x 650.43pt>
 File: images/sinus/Stochastic/sinus 1 Input 8 Sets 4000 Epochs Stochastic Gradi
 ent Descent two equations mf.png Graphic file (type png)
 <use images/sinus/Stochastic/sinus 1 Input 8 Sets 4000 Epochs Stochastic Gradie
 nt Descent two equations mf.png>
 Package pdftex.def Info: images/sinus/Stochastic/sinus 1 Input 8 Sets 4000 Epoc
-hs Stochastic Gradient Descent two equations mf.png  used on input line 172.
-(pdftex.def)             Requested size: 313.69025pt x 282.31943pt.
+hs Stochastic Gradient Descent two equations mf.png  used on input line 179.
+(pdftex.def)             Requested size: 271.86234pt x 244.67485pt.
 
 LaTeX Warning: File `images/sinus/Stochastic/sinus 1 Input 8 Sets 4000 Epochs S
-tochastic Gradient Descent one equation mf.png' not found on input line 177.
+tochastic Gradient Descent one equation mf.png' not found on input line 184.
 
 <images/sinus/Stochastic/sinus 1 Input 8 Sets 4000 Epochs Stochastic Gradient D
-escent one equation mf.png, id=542, 722.7pt x 650.43pt>
+escent one equation mf.png, id=845, 722.7pt x 650.43pt>
 File: images/sinus/Stochastic/sinus 1 Input 8 Sets 4000 Epochs Stochastic Gradi
 ent Descent one equation mf.png Graphic file (type png)
 <use images/sinus/Stochastic/sinus 1 Input 8 Sets 4000 Epochs Stochastic Gradie
 nt Descent one equation mf.png>
 Package pdftex.def Info: images/sinus/Stochastic/sinus 1 Input 8 Sets 4000 Epoc
-hs Stochastic Gradient Descent one equation mf.png  used on input line 177.
-(pdftex.def)             Requested size: 313.69025pt x 282.31943pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 189--189
+hs Stochastic Gradient Descent one equation mf.png  used on input line 184.
+(pdftex.def)             Requested size: 271.86234pt x 244.67485pt.
+[38] [39 <./images/sinus/Stochastic/sinus 1 Input 8 Sets 4000 Epochs Stochastic
+ Gradient Descent two equations mf.png> <./images/sinus/Stochastic/sinus 1 Inpu
+t 8 Sets 4000 Epochs Stochastic Gradient Descent one equation mf.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 197--197
 []|\OT1/cmr/m/n/12 sinus 1 In-put
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 189--189
+Underfull \hbox (badness 10000) in paragraph at lines 197--197
 \OT1/cmr/m/n/12 8 Sets 4000
  []
 
 
-Underfull \hbox (badness 2617) in paragraph at lines 189--189
+Underfull \hbox (badness 2617) in paragraph at lines 197--197
 \OT1/cmr/m/n/12 Epochs Sto-cha-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 189--189
+Underfull \hbox (badness 10000) in paragraph at lines 197--197
 \OT1/cmr/m/n/12 stic Gra-di-ent
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 189--189
+Underfull \hbox (badness 10000) in paragraph at lines 197--197
 \OT1/cmr/m/n/12 De-scent two
  []
 
 
-Underfull \hbox (badness 2302) in paragraph at lines 189--189
+Underfull \hbox (badness 2302) in paragraph at lines 197--197
 []|\OT1/cmr/m/n/12 Stochastic Gra-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 189--189
+Underfull \hbox (badness 10000) in paragraph at lines 197--197
 []|\OT1/cmr/m/n/12 two equa-ti-ons
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 190--190
+Underfull \hbox (badness 10000) in paragraph at lines 198--198
 []|\OT1/cmr/m/n/12 sinus 1 In-put
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 190--190
+Underfull \hbox (badness 10000) in paragraph at lines 198--198
 \OT1/cmr/m/n/12 8 Sets 4000
  []
 
 
-Underfull \hbox (badness 2617) in paragraph at lines 190--190
+Underfull \hbox (badness 2617) in paragraph at lines 198--198
 \OT1/cmr/m/n/12 Epochs Sto-cha-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 190--190
+Underfull \hbox (badness 10000) in paragraph at lines 198--198
 \OT1/cmr/m/n/12 stic Gra-di-ent
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 190--190
+Underfull \hbox (badness 10000) in paragraph at lines 198--198
 \OT1/cmr/m/n/12 De-scent one
  []
 
 
-Underfull \hbox (badness 2302) in paragraph at lines 190--190
+Underfull \hbox (badness 2302) in paragraph at lines 198--198
 []|\OT1/cmr/m/n/12 Stochastic Gra-
  []
 
 
-Overfull \hbox (14.49722pt too wide) in paragraph at lines 186--192
- [] 
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 200.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (14.49722pt too wide) in paragraph at lines 194--200
+[][] 
  []
 
-[30] [31 <./images/sinus/Stochastic/sinus 1 Input 8 Sets 4000 Epochs Stochastic
- Gradient Descent two equations mf.png> <./images/sinus/Stochastic/sinus 1 Inpu
-t 8 Sets 4000 Epochs Stochastic Gradient Descent one equation mf.png>] [32]
+[40]
 
 LaTeX Warning: File `images/sinus/Mini-Batch/sinus 1 Input 2 Sets 5 Epochs Mini
--Batch Gradient Descent two equations mf.png' not found on input line 275.
+-Batch Gradient Descent two equations mf.png' not found on input line 281.
 
 <images/sinus/Mini-Batch/sinus 1 Input 2 Sets 5 Epochs Mini-Batch Gradient Desc
-ent two equations mf.png, id=565, 722.7pt x 650.43pt>
+ent two equations mf.png, id=876, 722.7pt x 650.43pt>
 File: images/sinus/Mini-Batch/sinus 1 Input 2 Sets 5 Epochs Mini-Batch Gradient
  Descent two equations mf.png Graphic file (type png)
 <use images/sinus/Mini-Batch/sinus 1 Input 2 Sets 5 Epochs Mini-Batch Gradient 
 Descent two equations mf.png>
 Package pdftex.def Info: images/sinus/Mini-Batch/sinus 1 Input 2 Sets 5 Epochs 
-Mini-Batch Gradient Descent two equations mf.png  used on input line 275.
+Mini-Batch Gradient Descent two equations mf.png  used on input line 281.
 (pdftex.def)             Requested size: 313.69025pt x 282.31943pt.
-
-Underfull \hbox (badness 4168) in paragraph at lines 288--288
+[41]
+Underfull \hbox (badness 4168) in paragraph at lines 293--293
 \OT1/cmr/m/n/12 Sets 5 Epochs
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 288--288
+Underfull \hbox (badness 10000) in paragraph at lines 293--293
 \OT1/cmr/m/n/12 di-ent De-scent
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 288--288
+Underfull \hbox (badness 10000) in paragraph at lines 293--293
 \OT1/cmr/m/n/12 two equa-ti-ons
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 288--288
+Underfull \hbox (badness 10000) in paragraph at lines 293--293
 []|\OT1/cmr/m/n/12 two equa-ti-ons
  []
 
 
-Underfull \hbox (badness 2302) in paragraph at lines 289--289
+Underfull \hbox (badness 2302) in paragraph at lines 294--294
 \OT1/cmr/m/n/12 Sto-cha-stic Gra-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 289--289
+Underfull \hbox (badness 10000) in paragraph at lines 294--294
 \OT1/cmr/m/n/12 di-ent De-scent
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 289--289
+Underfull \hbox (badness 10000) in paragraph at lines 294--294
 \OT1/cmr/m/n/12 two equa-ti-ons
  []
 
 
-Underfull \hbox (badness 2302) in paragraph at lines 289--289
+Underfull \hbox (badness 2302) in paragraph at lines 294--294
 []|\OT1/cmr/m/n/12 Stochastic Gra-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 289--290
+Underfull \hbox (badness 10000) in paragraph at lines 294--295
 []|\OT1/cmr/m/n/12 two equa-ti-ons
  []
 
 
-Overfull \hbox (19.1319pt too wide) in paragraph at lines 285--292
- [] 
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 297.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (19.1319pt too wide) in paragraph at lines 290--297
+[][] 
  []
 
-[33] [34 <./images/sinus/Mini-Batch/sinus 1 Input 2 Sets 5 Epochs Mini-Batch Gr
-adient Descent two equations mf.png>]
+[42 <./images/sinus/Mini-Batch/sinus 1 Input 2 Sets 5 Epochs Mini-Batch Gradien
+t Descent two equations mf.png>]
 
 LaTeX Warning: File `images/sinus/Mini-Batch/sinus 1 Input 2 Sets 50 Epochs Min
-i-Batch Gradient Descent two equations mf.png' not found on input line 328.
+i-Batch Gradient Descent two equations mf.png' not found on input line 335.
 
 <images/sinus/Mini-Batch/sinus 1 Input 2 Sets 50 Epochs Mini-Batch Gradient Des
-cent two equations mf.png, id=585, 722.7pt x 650.43pt>
+cent two equations mf.png, id=898, 722.7pt x 650.43pt>
 File: images/sinus/Mini-Batch/sinus 1 Input 2 Sets 50 Epochs Mini-Batch Gradien
 t Descent two equations mf.png Graphic file (type png)
 <use images/sinus/Mini-Batch/sinus 1 Input 2 Sets 50 Epochs Mini-Batch Gradient
  Descent two equations mf.png>
 Package pdftex.def Info: images/sinus/Mini-Batch/sinus 1 Input 2 Sets 50 Epochs
- Mini-Batch Gradient Descent two equations mf.png  used on input line 328.
-(pdftex.def)             Requested size: 313.69025pt x 282.31943pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 339--339
+ Mini-Batch Gradient Descent two equations mf.png  used on input line 335.
+(pdftex.def)             Requested size: 271.86234pt x 244.67485pt.
+[43 <./images/sinus/Mini-Batch/sinus 1 Input 2 Sets 50 Epochs Mini-Batch Gradie
+nt Descent two equations mf.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 346--346
 \OT1/cmr/m/n/12 di-ent De-scent
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 339--339
+Underfull \hbox (badness 10000) in paragraph at lines 346--346
 \OT1/cmr/m/n/12 two equa-ti-ons
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 339--339
+Underfull \hbox (badness 10000) in paragraph at lines 346--346
 []|\OT1/cmr/m/n/12 two equa-ti-ons
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 340--340
+Underfull \hbox (badness 10000) in paragraph at lines 347--347
 []|\OT1/cmr/m/n/12 sinus 1 In-put
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 340--340
+Underfull \hbox (badness 10000) in paragraph at lines 347--347
 \OT1/cmr/m/n/12 2 Sets 4000
  []
 
 
-Underfull \hbox (badness 2617) in paragraph at lines 340--340
+Underfull \hbox (badness 2617) in paragraph at lines 347--347
 \OT1/cmr/m/n/12 Epochs Sto-cha-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 340--340
+Underfull \hbox (badness 10000) in paragraph at lines 347--347
 \OT1/cmr/m/n/12 stic Gra-di-ent
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 340--340
+Underfull \hbox (badness 10000) in paragraph at lines 347--347
 \OT1/cmr/m/n/12 De-scent two
  []
 
 
-Underfull \hbox (badness 2302) in paragraph at lines 340--340
+Underfull \hbox (badness 2302) in paragraph at lines 347--347
 []|\OT1/cmr/m/n/12 Stochastic Gra-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 340--341
+Underfull \hbox (badness 10000) in paragraph at lines 347--348
 []|\OT1/cmr/m/n/12 two equa-ti-ons
  []
 
 
-Overfull \hbox (14.49722pt too wide) in paragraph at lines 336--343
- [] 
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 350.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (14.49722pt too wide) in paragraph at lines 343--350
+[][] 
  []
 
-[35 <./images/sinus/Mini-Batch/sinus 1 Input 2 Sets 50 Epochs Mini-Batch Gradie
-nt Descent two equations mf.png>]
 
 LaTeX Warning: File `images/sinus/Mini-Batch/sinus 1 Input 2 Sets 5000 Epochs M
-ini-Batch Gradient Descent two equations mf.png' not found on input line 367.
+ini-Batch Gradient Descent two equations mf.png' not found on input line 379.
 
 <images/sinus/Mini-Batch/sinus 1 Input 2 Sets 5000 Epochs Mini-Batch Gradient D
-escent two equations mf.png, id=596, 722.7pt x 650.43pt>
+escent two equations mf.png, id=912, 722.7pt x 650.43pt>
 File: images/sinus/Mini-Batch/sinus 1 Input 2 Sets 5000 Epochs Mini-Batch Gradi
 ent Descent two equations mf.png Graphic file (type png)
 <use images/sinus/Mini-Batch/sinus 1 Input 2 Sets 5000 Epochs Mini-Batch Gradie
 nt Descent two equations mf.png>
 Package pdftex.def Info: images/sinus/Mini-Batch/sinus 1 Input 2 Sets 5000 Epoc
-hs Mini-Batch Gradient Descent two equations mf.png  used on input line 367.
-(pdftex.def)             Requested size: 313.69025pt x 282.31943pt.
+hs Mini-Batch Gradient Descent two equations mf.png  used on input line 379.
+(pdftex.def)             Requested size: 271.86234pt x 244.67485pt.
 
 LaTeX Warning: File `images/sinus/Mini-Batch/sinus 1 Input 2 Sets 5000 Epochs M
-ini-Batch Gradient Descent one equation mf.png' not found on input line 372.
+ini-Batch Gradient Descent one equation mf.png' not found on input line 384.
 
 <images/sinus/Mini-Batch/sinus 1 Input 2 Sets 5000 Epochs Mini-Batch Gradient D
-escent one equation mf.png, id=597, 722.7pt x 650.43pt>
+escent one equation mf.png, id=913, 722.7pt x 650.43pt>
 File: images/sinus/Mini-Batch/sinus 1 Input 2 Sets 5000 Epochs Mini-Batch Gradi
 ent Descent one equation mf.png Graphic file (type png)
 <use images/sinus/Mini-Batch/sinus 1 Input 2 Sets 5000 Epochs Mini-Batch Gradie
 nt Descent one equation mf.png>
 Package pdftex.def Info: images/sinus/Mini-Batch/sinus 1 Input 2 Sets 5000 Epoc
-hs Mini-Batch Gradient Descent one equation mf.png  used on input line 372.
-(pdftex.def)             Requested size: 313.69025pt x 282.31943pt.
+hs Mini-Batch Gradient Descent one equation mf.png  used on input line 384.
+(pdftex.def)             Requested size: 271.86234pt x 244.67485pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 382--382
+Underfull \hbox (badness 10000) in paragraph at lines 395--395
 []|\OT1/cmr/m/n/12 sinus 1 In-put
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 382--382
+Underfull \hbox (badness 10000) in paragraph at lines 395--395
 \OT1/cmr/m/n/12 2 Sets 5000
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 382--382
+Underfull \hbox (badness 10000) in paragraph at lines 395--395
 \OT1/cmr/m/n/12 Epochs Mini-
  []
 
 
-Underfull \hbox (badness 2600) in paragraph at lines 382--382
+Underfull \hbox (badness 2600) in paragraph at lines 395--395
 \OT1/cmr/m/n/12 Batch Gra-di-ent
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 382--382
+Underfull \hbox (badness 10000) in paragraph at lines 395--395
 \OT1/cmr/m/n/12 De-scent two
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 382--382
+Underfull \hbox (badness 10000) in paragraph at lines 395--395
 []|\OT1/cmr/m/n/12 two equa-ti-ons
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 383--383
+Underfull \hbox (badness 10000) in paragraph at lines 396--396
 []|\OT1/cmr/m/n/12 sinus 1 In-put
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 383--383
+Underfull \hbox (badness 10000) in paragraph at lines 396--396
 \OT1/cmr/m/n/12 2 Sets 5000
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 383--383
+Underfull \hbox (badness 10000) in paragraph at lines 396--396
 \OT1/cmr/m/n/12 Epochs Mini-
  []
 
 
-Underfull \hbox (badness 2600) in paragraph at lines 383--383
+Underfull \hbox (badness 2600) in paragraph at lines 396--396
 \OT1/cmr/m/n/12 Batch Gra-di-ent
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 383--383
+Underfull \hbox (badness 10000) in paragraph at lines 396--396
 \OT1/cmr/m/n/12 De-scent one
  []
 
-[36] [37 <./images/sinus/Mini-Batch/sinus 1 Input 2 Sets 5000 Epochs Mini-Batch
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 398.
+See the caption package documentation for explanation.
+
+[44] [45 <./images/sinus/Mini-Batch/sinus 1 Input 2 Sets 5000 Epochs Mini-Batch
  Gradient Descent two equations mf.png> <./images/sinus/Mini-Batch/sinus 1 Inpu
-t 2 Sets 5000 Epochs Mini-Batch Gradient Descent one equation mf.png>]
-<images/parabola_positive.png, id=613, 289.08pt x 216.81pt>
+t 2 Sets 5000 Epochs Mini-Batch Gradient Descent one equation mf.png>] [46]
+
+LaTeX Warning: File `images/sinus/Batch/sinus 1 Input 2 Sets 1000 Epochs Batch 
+Gradient Descent two equations mf.png' not found on input line 441.
+
+<images/sinus/Batch/sinus 1 Input 2 Sets 1000 Epochs Batch Gradient Descent two
+ equations mf.png, id=950, 722.7pt x 650.43pt>
+File: images/sinus/Batch/sinus 1 Input 2 Sets 1000 Epochs Batch Gradient Descen
+t two equations mf.png Graphic file (type png)
+<use images/sinus/Batch/sinus 1 Input 2 Sets 1000 Epochs Batch Gradient Descent
+ two equations mf.png>
+Package pdftex.def Info: images/sinus/Batch/sinus 1 Input 2 Sets 1000 Epochs Ba
+tch Gradient Descent two equations mf.png  used on input line 441.
+(pdftex.def)             Requested size: 271.86234pt x 244.67485pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 454--454
+[]|\OT1/cmr/m/n/12 sinus 1 In-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 454--454
+\OT1/cmr/m/n/12 put 2 Sets
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 454--454
+\OT1/cmr/m/n/12 1000 Epochs
+ []
+
+
+Underfull \hbox (badness 2600) in paragraph at lines 454--454
+\OT1/cmr/m/n/12 Batch Gra-di-ent
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 454--454
+\OT1/cmr/m/n/12 De-scent two
+ []
+
+
+Underfull \hbox (badness 2600) in paragraph at lines 454--454
+[]|\OT1/cmr/m/n/12 Batch Gra-di-ent
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 454--454
+[]|\OT1/cmr/m/n/12 two equa-ti-ons
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 455--455
+[]|\OT1/cmr/m/n/12 sinus 1 In-put
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 455--455
+\OT1/cmr/m/n/12 2 Sets 5000
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 455--455
+\OT1/cmr/m/n/12 Epochs Mini-
+ []
+
+
+Underfull \hbox (badness 2600) in paragraph at lines 455--455
+\OT1/cmr/m/n/12 Batch Gra-di-ent
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 455--455
+\OT1/cmr/m/n/12 De-scent two
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 455--455
+[]|\OT1/cmr/m/n/12 two equa-ti-ons
+ []
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 457.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (20.37216pt too wide) in paragraph at lines 451--457
+[][] 
+ []
+
+[47 <./images/sinus/Batch/sinus 1 Input 2 Sets 1000 Epochs Batch Gradient Desce
+nt two equations mf.png>]
+
+LaTeX Warning: File `images/sinus/Batch/sinus 1 Input 3 Sets 1000 Epochs Batch 
+Gradient Descent two equations mf.png' not found on input line 468.
+
+<images/sinus/Batch/sinus 1 Input 3 Sets 1000 Epochs Batch Gradient Descent two
+ equations mf.png, id=966, 722.7pt x 650.43pt>
+File: images/sinus/Batch/sinus 1 Input 3 Sets 1000 Epochs Batch Gradient Descen
+t two equations mf.png Graphic file (type png)
+<use images/sinus/Batch/sinus 1 Input 3 Sets 1000 Epochs Batch Gradient Descent
+ two equations mf.png>
+Package pdftex.def Info: images/sinus/Batch/sinus 1 Input 3 Sets 1000 Epochs Ba
+tch Gradient Descent two equations mf.png  used on input line 468.
+(pdftex.def)             Requested size: 271.86234pt x 244.67485pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 480--480
+[]|\OT1/cmr/m/n/12 sinus 1 In-put
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 480--480
+\OT1/cmr/m/n/12 2 Sets 1000
+ []
+
+
+Underfull \hbox (badness 2600) in paragraph at lines 480--480
+[]|\OT1/cmr/m/n/12 Batch Gra-di-ent
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 480--480
+[]|\OT1/cmr/m/n/12 two equa-ti-ons
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 481--481
+[]|\OT1/cmr/m/n/12 sinus 1 In-put
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 481--481
+\OT1/cmr/m/n/12 3 Sets 1000
+ []
+
+
+Underfull \hbox (badness 2600) in paragraph at lines 481--481
+[]|\OT1/cmr/m/n/12 Batch Gra-di-ent
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 481--482
+[]|\OT1/cmr/m/n/12 two equa-ti-ons
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 483--483
+[]|\OT1/cmr/m/n/12 sinus 1 In-put
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 483--483
+\OT1/cmr/m/n/12 2 Sets 5000
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 483--483
+[]|\OT1/cmr/m/n/12 two equa-ti-ons
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 484--484
+[]|\OT1/cmr/m/n/12 sinus 1 In-put
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 484--484
+\OT1/cmr/m/n/12 3 Sets 5000
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 484--484
+[]|\OT1/cmr/m/n/12 two equa-ti-ons
+ []
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 486.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (32.12204pt too wide) in paragraph at lines 477--486
+[][] 
+ []
+
+[48] [49 <./images/sinus/Batch/sinus 1 Input 3 Sets 1000 Epochs Batch Gradient 
+Descent two equations mf.png>]
+<images/parabola_positive.png, id=987, 289.08pt x 216.81pt>
 File: images/parabola_positive.png Graphic file (type png)
 <use images/parabola_positive.png>
-Package pdftex.def Info: images/parabola_positive.png  used on input line 425.
-(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
-<images/parabola.png, id=614, 289.08pt x 216.81pt>
+Package pdftex.def Info: images/parabola_positive.png  used on input line 500.
+(pdftex.def)             Requested size: 130.49274pt x 97.86795pt.
+<images/parabola.png, id=988, 289.08pt x 216.81pt>
 File: images/parabola.png Graphic file (type png)
 <use images/parabola.png>
-Package pdftex.def Info: images/parabola.png  used on input line 430.
-(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
+Package pdftex.def Info: images/parabola.png  used on input line 506.
+(pdftex.def)             Requested size: 130.49274pt x 97.86795pt.
 
 
 LaTeX Warning: File `images/parabola_1000/Mini-Batch/parabola_1000 1 Input 2 Se
 ts 50 Epochs Mini-Batch Gradient Descent two equations mf.png' not found on inp
-ut line 441.
+ut line 519.
 
 <images/parabola_1000/Mini-Batch/parabola_1000 1 Input 2 Sets 50 Epochs Mini-Ba
-tch Gradient Descent two equations mf.png, id=615, 722.7pt x 650.43pt>
+tch Gradient Descent two equations mf.png, id=991, 722.7pt x 650.43pt>
 File: images/parabola_1000/Mini-Batch/parabola_1000 1 Input 2 Sets 50 Epochs Mi
 ni-Batch Gradient Descent two equations mf.png Graphic file (type png)
 <use images/parabola_1000/Mini-Batch/parabola_1000 1 Input 2 Sets 50 Epochs Min
 i-Batch Gradient Descent two equations mf.png>
 Package pdftex.def Info: images/parabola_1000/Mini-Batch/parabola_1000 1 Input 
 2 Sets 50 Epochs Mini-Batch Gradient Descent two equations mf.png  used on inpu
-t line 441.
-(pdftex.def)             Requested size: 313.69025pt x 282.31943pt.
+t line 519.
+(pdftex.def)             Requested size: 271.86234pt x 244.67485pt.
 
 LaTeX Warning: File `images/parabola_positive/Mini-Batch/parabola_positive 1 In
 put 2 Sets 50 Epochs Mini-Batch Gradient Descent two equations mf.png' not foun
-d on input line 446.
+d on input line 525.
 
 <images/parabola_positive/Mini-Batch/parabola_positive 1 Input 2 Sets 50 Epochs
- Mini-Batch Gradient Descent two equations mf.png, id=616, 722.7pt x 650.43pt>
+ Mini-Batch Gradient Descent two equations mf.png, id=992, 722.7pt x 650.43pt>
 File: images/parabola_positive/Mini-Batch/parabola_positive 1 Input 2 Sets 50 E
 pochs Mini-Batch Gradient Descent two equations mf.png Graphic file (type png)
 <use images/parabola_positive/Mini-Batch/parabola_positive 1 Input 2 Sets 50 Ep
 ochs Mini-Batch Gradient Descent two equations mf.png>
 Package pdftex.def Info: images/parabola_positive/Mini-Batch/parabola_positive 
 1 Input 2 Sets 50 Epochs Mini-Batch Gradient Descent two equations mf.png  used
- on input line 446.
-(pdftex.def)             Requested size: 313.69025pt x 282.31943pt.
-[38]
-Underfull \hbox (badness 10000) in paragraph at lines 456--457
+ on input line 525.
+(pdftex.def)             Requested size: 271.86234pt x 244.67485pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 537--538
 []|\OT1/cmr/m/n/12 two equa-ti-ons
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 458--459
+Underfull \hbox (badness 10000) in paragraph at lines 539--540
 []|\OT1/cmr/m/n/12 two equa-ti-ons
  []
 
 
-Overfull \hbox (23.2176pt too wide) in paragraph at lines 453--461
- [] 
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 542.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (23.2176pt too wide) in paragraph at lines 534--542
+[][] 
  []
 
-[39 <./images/parabola_positive.png> <./images/parabola.png>] [40 <./images/par
+[50 <./images/parabola_positive.png> <./images/parabola.png>] [51 <./images/par
 abola_1000/Mini-Batch/parabola_1000 1 Input 2 Sets 50 Epochs Mini-Batch Gradien
 t Descent two equations mf.png> <./images/parabola_positive/Mini-Batch/parabola
 _positive 1 Input 2 Sets 50 Epochs Mini-Batch Gradient Descent two equations mf
@@ -2770,26 +2961,26 @@ _positive 1 Input 2 Sets 50 Epochs Mini-Batch Gradient Descent two equations mf
 
 LaTeX Warning: File `images/parabola_1000/Mini-Batch/parabola_1000 1 Input 2 Se
 ts 5000 Epochs Mini-Batch Gradient Descent two equations mf.png' not found on i
-nput line 469.
+nput line 554.
 
 <images/parabola_1000/Mini-Batch/parabola_1000 1 Input 2 Sets 5000 Epochs Mini-
-Batch Gradient Descent two equations mf.png, id=641, 722.7pt x 650.43pt>
+Batch Gradient Descent two equations mf.png, id=1016, 722.7pt x 650.43pt>
 File: images/parabola_1000/Mini-Batch/parabola_1000 1 Input 2 Sets 5000 Epochs 
 Mini-Batch Gradient Descent two equations mf.png Graphic file (type png)
 <use images/parabola_1000/Mini-Batch/parabola_1000 1 Input 2 Sets 5000 Epochs M
 ini-Batch Gradient Descent two equations mf.png>
 Package pdftex.def Info: images/parabola_1000/Mini-Batch/parabola_1000 1 Input 
 2 Sets 5000 Epochs Mini-Batch Gradient Descent two equations mf.png  used on in
-put line 469.
-(pdftex.def)             Requested size: 313.69025pt x 282.31943pt.
+put line 554.
+(pdftex.def)             Requested size: 271.86234pt x 244.67485pt.
 
 LaTeX Warning: File `images/parabola_positive/Mini-Batch/parabola_positive 1 In
 put 2 Sets 5000 Epochs Mini-Batch Gradient Descent two equations mf.png' not fo
-und on input line 474.
+und on input line 563.
 
 <images/parabola_positive/Mini-Batch/parabola_positive 1 Input 2 Sets 5000 Epoc
-hs Mini-Batch Gradient Descent two equations mf.png, id=642, 722.7pt x 650.43pt
->
+hs Mini-Batch Gradient Descent two equations mf.png, id=1017, 722.7pt x 650.43p
+t>
 File: images/parabola_positive/Mini-Batch/parabola_positive 1 Input 2 Sets 5000
  Epochs Mini-Batch Gradient Descent two equations mf.png Graphic file (type png
 )
@@ -2797,27 +2988,90 @@ File: images/parabola_positive/Mini-Batch/parabola_positive 1 Input 2 Sets 5000
 Epochs Mini-Batch Gradient Descent two equations mf.png>
 Package pdftex.def Info: images/parabola_positive/Mini-Batch/parabola_positive 
 1 Input 2 Sets 5000 Epochs Mini-Batch Gradient Descent two equations mf.png  us
-ed on input line 474.
-(pdftex.def)             Requested size: 313.69025pt x 282.31943pt.
+ed on input line 563.
+(pdftex.def)             Requested size: 271.86234pt x 244.67485pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 484--485
+Underfull \hbox (badness 10000) in paragraph at lines 578--579
 []|\OT1/cmr/m/n/12 two equa-ti-ons
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 486--487
+Underfull \hbox (badness 10000) in paragraph at lines 580--581
 []|\OT1/cmr/m/n/12 two equa-ti-ons
  []
 
 
-Overfull \hbox (11.46773pt too wide) in paragraph at lines 481--489
- [] 
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 583.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (11.46773pt too wide) in paragraph at lines 575--583
+[][] 
  []
 
-[41 <./images/parabola_1000/Mini-Batch/parabola_1000 1 Input 2 Sets 5000 Epochs
- Mini-Batch Gradient Descent two equations mf.png>]) [42 <./images/parabola_pos
-itive/Mini-Batch/parabola_positive 1 Input 2 Sets 5000 Epochs Mini-Batch Gradie
-nt Descent two equations mf.png>] (./vorlage.bbl
+! Missing $ inserted.
+<inserted text> 
+                $
+l.583 ...n ``parabola'' und parabola_``positive''}
+                                                  \label{par_tab1_5000MB}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.583 ...n ``parabola'' und parabola_``positive''}
+                                                  \label{par_tab1_5000MB}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.583 ...n ``parabola'' und parabola_``positive''}
+                                                  \label{par_tab1_5000MB}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.583 ...n ``parabola'' und parabola_``positive''}
+                                                  \label{par_tab1_5000MB}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+[52 <./images/parabola_1000/Mini-Batch/parabola_1000 1 Input 2 Sets 5000 Epochs
+ Mini-Batch Gradient Descent two equations mf.png>]
+<images/charts/Mini-BatchGradientTimeParabola_bold.png, id=1033, 1022.31938pt x
+ 587.19376pt>
+File: images/charts/Mini-BatchGradientTimeParabola_bold.png Graphic file (type 
+png)
+<use images/charts/Mini-BatchGradientTimeParabola_bold.png>
+Package pdftex.def Info: images/charts/Mini-BatchGradientTimeParabola_bold.png 
+ used on input line 597.
+(pdftex.def)             Requested size: 418.25368pt x 240.23132pt.
+<images/charts/SinusFunktionbesteModelle_bold.png, id=1036, 1506.3778pt x 665.4
+8625pt>
+File: images/charts/SinusFunktionbesteModelle_bold.png Graphic file (type png)
+<use images/charts/SinusFunktionbesteModelle_bold.png>
+Package pdftex.def Info: images/charts/SinusFunktionbesteModelle_bold.png  used
+ on input line 606.
+(pdftex.def)             Requested size: 418.25368pt x 184.77109pt.
+<images/charts/ParabelFunktionbesteModelle_bold.png, id=1037, 1446.90562pt x 62
+4.08156pt>
+File: images/charts/ParabelFunktionbesteModelle_bold.png Graphic file (type png
+)
+<use images/charts/ParabelFunktionbesteModelle_bold.png>
+Package pdftex.def Info: images/charts/ParabelFunktionbesteModelle_bold.png  us
+ed on input line 613.
+(pdftex.def)             Requested size: 418.25368pt x 180.39813pt.
+ [53 <./images/parabola_positive/Mini-Batch/parabola_positive 1 Input 2 Sets 50
+00 Epochs Mini-Batch Gradient Descent two equations mf.png>]) [54 <./images/cha
+rts/Mini-BatchGradientTimeParabola_bold.png (PNG copy)> <./images/charts/SinusF
+unktionbesteModelle_bold.png (PNG copy)>] [55 <./images/charts/ParabelFunktionb
+esteModelle_bold.png (PNG copy)>] (./vorlage.bbl
 
 ! Package inputenc Error: Keyboard character used is undefined
 (inputenc)                in inputencoding `utf8'.
@@ -2900,67 +3154,58 @@ ter-[]des-[]gehirns$[]\OT1/cmr/m/n/12 .
 
 )
 No file vorlage.ind.
-[43
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 134.
+[56
 
 
 
 
 ]
-\openout2 = `chapters/Glossar.aux'.
-
- (./chapters/Glossar.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 3--125
-
- []
-
-[44
-
-
-
-]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 128.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 128.
- (./vorlage.aux (./chapters/Glossar.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 128.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 128.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 134.
+ (./vorlage.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 134.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 134.
 Package rerunfilecheck Info: File `vorlage.out' has not changed.
-(rerunfilecheck)             Checksum: EF2E731472D850CCC4707A99B6C46FB1;2323.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 128.
+(rerunfilecheck)             Checksum: 3FD3D50F196C7BDE46A802ADD9C453AB;3658.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 134.
  ) 
 Here is how much of TeX's memory you used:
- 12857 strings out of 492982
- 188609 string characters out of 6134896
- 298039 words of memory out of 5000000
- 15927 multiletter control sequences out of 15000+600000
- 20368 words of font info for 71 fonts, out of 8000000 for 9000
+ 14931 strings out of 492982
+ 221217 string characters out of 6134896
+ 374164 words of memory out of 5000000
+ 17786 multiletter control sequences out of 15000+600000
+ 21803 words of font info for 76 fonts, out of 8000000 for 9000
  1146 hyphenation exceptions out of 8191
- 42i,14n,32p,1088b,615s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolD.enc}{/usr/s
-hare/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texlive/texmf-
+ 42i,14n,42p,1084b,2019s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texli
+ve/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolD.enc}{/usr/share/texlive/texmf-
 dist/fonts/enc/dvips/mnsymbol/MnSymbolE.enc}{/usr/share/texlive/texmf-dist/font
 s/enc/dvips/mnsymbol/MnSymbolF.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvi
 ps/mnsymbol/MnSymbolA.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/mnsymb
 ol/MnSymbolC.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/mnsymbol/MnS
 ymbol12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol
 8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti1
-2.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></us
-r/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on vorlage.pdf (48 pages, 1626449 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf/
+fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texmf/fonts/type1/public/c
+m-super/sfrm1200.pfb>
+Output written on vorlage.pdf (60 pages, 2078324 bytes).
 PDF statistics:
- 787 PDF objects out of 1000 (max. 8388607)
- 656 compressed objects within 7 object streams
- 206 named destinations out of 1000 (max. 500000)
- 405 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1234 PDF objects out of 1440 (max. 8388607)
+ 1071 compressed objects within 11 object streams
+ 397 named destinations out of 1000 (max. 500000)
+ 563 words of extra memory for PDF output out of 10000 (max. 10000000)
 
