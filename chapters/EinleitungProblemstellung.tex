@@ -1,10 +1,14 @@
 \chapter{Einleitung und Problemstellung}
 
-Das Thema dieser Ausarbeitung ist Unscharfe Informationen, oder Fuzzy-Sets. Mit Fuzzy-Sets lassen sich schwammige Daten, wie ``gro\ss e'' Zahlen oder ``mittlere'' Temperatur, f\"ur Maschinen, insbesondere Computern, beschreiben. Diese Mengen k\"onnen dann von so genannten Fuzzy-Systeme interpretiert werden. Somit zieht man bestimmte logische R\"uckschlüsse bez\"uglich einer Eingabe. Als Beispiel k\"onnte man die Farben von Tomaten nehmen. Der Mensch kann mit h\"oher Richtigkeit entscheiden, welche Tomate denn reif ist. F\"ur eine Maschine jedoch ist die Interpretation roher Information(Tomate ist Rot, also reif) nicht m\"oglich. Mit den Fuzzy-Sets und Regeln kann man in dem System, dieses definieren.
+Das Thema dieser Ausarbeitung ist es ``Optimierung von Fuzzy-Systeme mit Hilfe von Neuronalen Netzen''. Ein Fuzzy-System ist ein Kontrollsystem, das Analogdaten analysiert, diese durch Fuzzy-Sets in unscharfe Daten umwandelt und folglich eine Inferenz zieht. Mit Fuzzy-Sets lassen sich schwammige Daten, wie ``gro\ss e'' Zahlen oder ``mittlere'' Temperatur, f\"ur Maschinen, insbesondere Computern, beschreiben. Zum Beispiel k\"onnte man die Farben von Tomaten nehmen. Der Mensch kann mit h\"oher Richtigkeit entscheiden, welche Tomate bereits reif ist. F\"ur eine Maschine jedoch ist die Interpretation roher Informationen (Tomate ist rot, also reif) nicht m\"oglich. Mit den Fuzzy-Sets und Regeln können diese in dem System definiert werden.
 
-Ziel dieses Projektes ist es, unter Anwendung von Neuronalen Netzen, Parameter beliebiger Fuzzy-Modelle zu optimieren. Das w\"urde heißen, dass bei der Mathematische Funktion $y = a\ast x_1 + b\ast x_2$ die Parametern $a$ und $b$ von dem neuronalen Netz automatisch angepasst werden, sodass sich der Erwartungswert $y'$ bei den Eingaben $x_1$ und $x_2$ ergibt.
+Ziel dieses Projektes ist es unter Anwendung von Neuronalen Netzen die Parameter von Fuzzy-Systemen zu optimieren. Es werden sowohl die Fuzzy-Mengen- als auch die Konklusionsparameter angepasst. Dafür wird der ANFIS-Ansatz eingesetzt.
 
-In dieser Ausarbeitung werden einige Ans\"atze vorgestellt. Schlie\ss lich wird eine Entscheidung getroffen, welcher Ansatz verwenden wird, Neuro-Fuzzy-Systeme aufzubauen.
+%Das w\"urde heißen, dass bei der Mathematische Funktion $y = a\ast x_1 + b\ast x_2$ die Parametern $a$ und $b$ von dem neuronalen Netz automatisch angepasst werden, sodass sich der Erwartungswert $y'$ bei den Eingaben $x_1$ und $x_2$ ergibt.
+
+Zu Beginn der Ausarbeitung werden die Grundlagen für Fuzzy-Systeme und Neuronale Netze beschrieben. Weiterhin werden zwei Ansätze, NEFCON und ANFIS, zur Optimierung von Fuzzy-Systemen vorgestellt. Daraufhin wird der ANFIS-Ansatz im Code gezeigt. Schließlich wird das Algorithmus getestet und evaluiert.
+
+%In dieser Ausarbeitung werden einige Ans\"atze vorgestellt. Schlie\ss lich wird eine Entscheidung getroffen, welcher Ansatz verwenden wird, Neuro-Fuzzy-Systeme aufzubauen.
 
 %Begonnen werden soll mit einer Einleitung zum Thema, also Hintergrund und Ziel erläutert werden.
 

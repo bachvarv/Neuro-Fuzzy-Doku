@@ -11,10 +11,6 @@
   {\em {Neuro-Fuzzy Control Based on the NEFCON-Model Under MATLAB/SIMULINK}}.
 \newblock \\ {\url{http://wwwiti.cs.uni-magdeburg.de/~nuernb/wsc2/}}.
 
-\bibitem[{Han}98]{NFMBothe:98}
-{\sc {Hans-Heinrich Bothe}}: {\em Neuro-Fuzzy-Methoden}.
-\newblock Springer-Verlag Berlin Heidelberg, 1998.
-
 \bibitem[Jan93]{Jang:93}
 {\sc Jang, Jyh-Shing~Roger}: {\em {ANFIS: Adaptive-Network-Based Fuzzy
   Inference System}}.
@@ -26,25 +22,25 @@
   Learning and Machine Intelligence}}.
 \newblock Prentice Hall, 1997.
 
-\bibitem[OLBI98]{CISCNFI:98}
-{\sc {Okyay Kaynak}}, {\sc {Lotfi A. Zadeh}}, {\sc {Burhan Türk?en}}
-  \btxandlong{}\ {\sc {Imre J. Rudas}}: {\em {Computational Intelligence: Soft
-  Computing and Fuzzy-Neuro Integration with Applications}}.
-\newblock Springer-Verlag Berlin Heidelberg, 1998.
+\bibitem[Pat]{SBMB:19}
+{\sc Patrikar, Sushant}: {\em Batch, Mini Batch & Stochastic Gradient Descent}.
+\newblock \\
+  {\url{https://towardsdatascience.com/\\batch-mini-batch-stochastic-gradient-descent-7a62ecba642a}}.
 
 \bibitem[RCC{\etalchar{+}}15]{CIKruse:15}
 {\sc {Rudolf Kruse}}, {\sc {Christian Borgelt}}, {\sc {Christian Braune}}, {\sc
   {Frank Klawonn}}, {\sc {Christian Moewes}} \btxandlong{}\ {\sc {Matthias
-  Steinbrecher}}: {\em {Computational Intelligence: Eine methodische Einführung
-  in Künstliche Neuronale Netze, Evolutionäre Algorithmen, Fuzzy-Systeme und
-  Bayes-Netze}}.
+  Steinbrecher}}: {\em {Computational Intelligence: Eine methodische
+  Einf{\"u}hrung in K{\"u}nstliche Neuronale Netze, Evolution{\"a}re
+  Algorithmen, Fuzzy-Systeme und Bayes-Netze}}.
 \newblock Springer Fachmedien Wiesbaden, 2015.
 
 \bibitem[uP]{GEHIRN:12}
 {\sc {Prof. Dr. Oliver von Bohlen und Halbach}, {Leonie Seng}~und}: {\em
   {Zellen: spezialisierte Arbeiter des Gehirns}}.
 \newblock \\
-  {\url{https://www.dasgehirn.info/grundlagen/kommunikation-der-zellen/zellen-spezialisierte-arbeiter-des-gehirns}}.
+  {\url{https://www.dasgehirn.info/grundlagen/kommunikation-der-zellen
+  /zellen-spezialisierte-arbeiter-des-gehirns}}.
 
 \bibitem[Wik]{NWIKI:19}
 {\sc Wikipedia}: {\em {Nervenzelle}}.

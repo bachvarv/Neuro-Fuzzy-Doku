@@ -1,74 +1,73 @@
 \babel@toc {ngerman}{}
 \babel@toc {ngerman}{}
 \contentsline {chapter}{\numberline {1}Einleitung und Problemstellung}{1}{chapter.1}
-\contentsline {chapter}{\numberline {2}Grundlagen}{2}{chapter.2}
+\contentsline {chapter}{\numberline {2}Grundlagen: Fuzzy-Systeme}{2}{chapter.2}
 \contentsline {section}{\numberline {2.1}Unscharfe Daten und Fuzzy-Logik}{2}{section.2.1}
 \contentsline {section}{\numberline {2.2}Fuzzy-Logik}{2}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Fuzzy-Sets}{3}{subsection.2.2.1}
 \contentsline {section}{\numberline {2.3}Operationen auf Fuzzy-Sets}{5}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Durchscnitt}{5}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.1}Durchschnitt}{5}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}Vereinigung}{6}{subsection.2.3.2}
-\contentsline {subsubsection}{Komplement}{6}{section*.9}
-\contentsline {subsubsection}{Zusammenfassung}{7}{section*.11}
+\contentsline {subsubsection}{Komplement}{7}{section*.9}
 \contentsline {section}{\numberline {2.4}Fuzzy-Systeme}{8}{section.2.4}
 \contentsline {subsection}{\numberline {2.4.1}Mamdani-Regler}{8}{subsection.2.4.1}
-\contentsline {section}{\numberline {2.5}Takagi-Sugeno-Kang-Modell}{10}{section.2.5}
-\contentsline {subsubsection}{Fuzzifizierung und Defuzzifizierung}{10}{section*.14}
-\contentsline {subsubsection}{Height Method}{11}{section*.15}
-\contentsline {subsubsection}{Center of Gravity}{11}{section*.16}
-\contentsline {subsubsection}{Weighted Average Method}{11}{section*.17}
-\contentsline {subsubsection}{Takagi-Sugeno-Kang-Defuzzifizierungsmethode}{11}{section*.18}
+\contentsline {section}{\numberline {2.5}Takagi-Sugeno-Kang-Modell}{9}{section.2.5}
+\contentsline {subsubsection}{Fuzzifizierung und Defuzzifizierung}{10}{section*.13}
+\contentsline {subsubsection}{Height Method}{10}{section*.14}
+\contentsline {subsubsection}{Center of Gravity}{11}{section*.15}
+\contentsline {subsubsection}{Weighted Average Method}{11}{section*.16}
+\contentsline {subsubsection}{Takagi-Sugeno-Kang-Defuzzifizierungsmethode}{11}{section*.17}
 \contentsline {section}{\numberline {2.6}K\IeC {\"u}nstliche Neuronale Netze}{12}{section.2.6}
-\contentsline {section}{\numberline {2.7}Biologische Grundlagen}{13}{section.2.7}
-\contentsline {subsection}{\numberline {2.7.1}Neuron in K\IeC {\"u}nstlichen Neuronalen Netzen}{13}{subsection.2.7.1}
-\contentsline {section}{\numberline {2.8}Lernen}{14}{section.2.8}
+\contentsline {section}{\numberline {2.7}Biologische Grundlagen}{12}{section.2.7}
+\contentsline {subsection}{\numberline {2.7.1}Neuron in K\IeC {\"u}nstlichen Neuronalen Netzen}{12}{subsection.2.7.1}
+\contentsline {section}{\numberline {2.8}Lernen}{13}{section.2.8}
 \contentsline {subsection}{\numberline {2.8.1}Unsupervised Learning}{14}{subsection.2.8.1}
 \contentsline {subsection}{\numberline {2.8.2}Supervised Learning}{14}{subsection.2.8.2}
-\contentsline {subsubsection}{Least Mean Square Method}{15}{section*.21}
-\contentsline {subsubsection}{Backpropagation Algorithm}{15}{section*.22}
-\contentsline {subsection}{\numberline {2.8.3}Schl\IeC {\"u}sse}{16}{subsection.2.8.3}
-\contentsline {section}{\numberline {2.9}Neuro-Fuzzy-Systeme}{16}{section.2.9}
+\contentsline {subsubsection}{Least Mean Square Method}{14}{section*.20}
+\contentsline {subsubsection}{Backpropagation Algorithm}{15}{section*.21}
+\contentsline {subsection}{\numberline {2.8.3}Schl\IeC {\"u}sse}{15}{subsection.2.8.3}
+\contentsline {section}{\numberline {2.9}Neuro-Fuzzy-Systeme}{15}{section.2.9}
 \contentsline {section}{\numberline {2.10}Neuro-Fuzzy-Regler}{16}{section.2.10}
-\contentsline {subsection}{\numberline {2.10.1}Modell f\"{u}r feste Lernaufgaben}{17}{subsection.2.10.1}
-\contentsline {subsubsection}{Das ANFIS-Modell}{17}{section*.23}
-\contentsline {subsection}{\numberline {2.10.2}Modell mit verst\IeC {\"a}rkendem Lernen}{19}{subsection.2.10.2}
-\contentsline {subsubsection}{Das NEFCON-Modell}{19}{section*.25}
-\contentsline {section}{\numberline {2.11}Erlernen einer Regelbasis}{21}{section.2.11}
-\contentsline {subsection}{\numberline {2.11.1}Top-Down- oder Reduktionsmethode zum Erlernen einer Regelbasis}{21}{subsection.2.11.1}
-\contentsline {subsection}{\numberline {2.11.2}Bottom-Up- oder Eliminationsmethode zum Erlernen einer Regelbasis}{21}{subsection.2.11.2}
-\contentsline {section}{\numberline {2.12}Optimierung der Regelbasis}{22}{section.2.12}
-\contentsline {section}{\numberline {2.13}Schlussworte}{22}{section.2.13}
-\contentsline {chapter}{\numberline {3}Neuro-Fuzzy-Modelle: Implementierung des ANFIS-Ansatzes}{23}{chapter.3}
-\contentsline {section}{\numberline {3.1}ANFIS-Klasse}{23}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Konstruktor}{23}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Eingangsschicht (FirstLayer)}{24}{subsection.3.1.2}
-\contentsline {subsection}{\numberline {3.1.3}Konklusionsparameter}{25}{subsection.3.1.3}
-\contentsline {subsection}{\numberline {3.1.4}Zugeh\IeC {\"o}rigkeitsfunktion (Second and Third Layer)}{26}{subsection.3.1.4}
-\contentsline {subsubsection}{Definition in Tensors aller Zugeh\IeC {\"o}rigkeitsfunktionen}{26}{section*.27}
-\contentsline {subsubsection}{Erster Programmteil (Second Layer)}{27}{section*.28}
-\contentsline {subsubsection}{Zweiter Programmteil (Third Layer)}{28}{section*.30}
-\contentsline {subsection}{\numberline {3.1.5}Fourth Layer}{29}{subsection.3.1.5}
-\contentsline {subsection}{\numberline {3.1.6}Fifth Layer}{29}{subsection.3.1.6}
-\contentsline {subsection}{\numberline {3.1.7}Sixth Layer}{30}{subsection.3.1.7}
-\contentsline {section}{\numberline {3.2}Optimisierungsfunktion}{30}{section.3.2}
-\contentsline {section}{\numberline {3.3}Trainingsfunktion}{30}{section.3.3}
-\contentsline {chapter}{\numberline {4}Analyse der Ergebnisse}{32}{chapter.4}
-\contentsline {subsubsection}{Stochastic Gradient Descent}{33}{section*.31}
-\contentsline {subsubsection}{Mini-Batch Gradient Descent}{33}{section*.32}
-\contentsline {subsubsection}{Batch Gradient Descent}{33}{section*.33}
-\contentsline {section}{\numberline {4.1}Lernen der Sinusfunktion mit Stochastic Gradient Descent}{34}{section.4.1}
-\contentsline {subsubsection}{Lernen eines Models mit 2 Fuzzy Sets und 1 Ablauf}{34}{section*.35}
-\contentsline {subsubsection}{Lernen eines Models mit 2 Fuzzy Sets und 10 Abl\IeC {\"a}ufe}{36}{section*.38}
-\contentsline {subsubsection}{Lernen eines Models mit 8 Fuzzy Sets und 10 Abl\IeC {\"a}ufe}{38}{section*.41}
-\contentsline {subsection}{\numberline {4.1.1}Schlussfolgerung}{41}{subsection.4.1.1}
-\contentsline {section}{\numberline {4.2}Lernen der Sinusfunktion mit Mini-Batch Gradient Descent}{41}{section.4.2}
-\contentsline {subsubsection}{Lernen der Sinusfunktion mit 2 Fuzzy-Sets und 1 Ablauf}{41}{section*.44}
-\contentsline {subsubsection}{Lernen der Sinusfunktion mit 2 Fuzzy-Sets und 10 Ablauf}{43}{section*.46}
-\contentsline {subsubsection}{Lernen der Sinusfunktion mit 2 Fuzzy-Sets und 1000 Abl\IeC {\"a}ufe}{44}{section*.48}
-\contentsline {section}{\numberline {4.3}Lernen der Sinusfunktion mit Batch Gradient Descent}{46}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Lernen mit 2 Fuzzy-Sets}{47}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Lernen mit 3 Fuzzy-Sets}{48}{subsection.4.3.2}
-\contentsline {section}{\numberline {4.4}Lernen der Parabelfunktion}{50}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Lernen der Parabelfunktion mit Mini-Batch Gradient Descent}{50}{subsection.4.4.1}
-\contentsline {section}{\numberline {4.5}Fazit}{53}{section.4.5}
-\contentsline {chapter}{Literaturverzeichnis}{56}{chapter*.61}
+\contentsline {subsection}{\numberline {2.10.1}Modell f\"{u}r feste Lernaufgaben}{16}{subsection.2.10.1}
+\contentsline {subsubsection}{Das ANFIS-Modell}{16}{section*.22}
+\contentsline {subsection}{\numberline {2.10.2}Modell mit verst\IeC {\"a}rkendem Lernen}{18}{subsection.2.10.2}
+\contentsline {subsubsection}{Das NEFCON-Modell}{19}{section*.24}
+\contentsline {section}{\numberline {2.11}Erlernen einer Regelbasis}{20}{section.2.11}
+\contentsline {subsubsection}{Top-Down- oder Reduktionsmethode zum Erlernen einer Regelbasis}{20}{section*.26}
+\contentsline {subsubsection}{Bottom-Up- oder Eliminationsmethode zum Erlernen einer Regelbasis}{20}{section*.27}
+\contentsline {section}{\numberline {2.12}Optimierung der Regelbasis}{21}{section.2.12}
+\contentsline {section}{\numberline {2.13}Schlussworte}{21}{section.2.13}
+\contentsline {chapter}{\numberline {3}Neuro-Fuzzy-Modelle: Implementierung des ANFIS-Ansatzes}{22}{chapter.3}
+\contentsline {section}{\numberline {3.1}ANFIS-Klasse}{22}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Konstruktor}{22}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Eingangsschicht (FirstLayer)}{23}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Konklusionsparameter}{24}{subsection.3.1.3}
+\contentsline {subsection}{\numberline {3.1.4}Zugeh\IeC {\"o}rigkeitsfunktion (Second and Third Layer)}{25}{subsection.3.1.4}
+\contentsline {subsubsection}{Definition in Tensors aller Zugeh\IeC {\"o}rigkeitsfunktionen}{25}{section*.28}
+\contentsline {subsubsection}{Erster Programmteil (Second Layer)}{26}{section*.29}
+\contentsline {subsubsection}{Zweiter Programmteil (Third Layer)}{27}{section*.31}
+\contentsline {subsection}{\numberline {3.1.5}Fourth Layer}{28}{subsection.3.1.5}
+\contentsline {subsection}{\numberline {3.1.6}Fifth Layer}{28}{subsection.3.1.6}
+\contentsline {subsection}{\numberline {3.1.7}Sixth Layer}{29}{subsection.3.1.7}
+\contentsline {section}{\numberline {3.2}Optimisierungsfunktion}{29}{section.3.2}
+\contentsline {section}{\numberline {3.3}Trainingsfunktion}{29}{section.3.3}
+\contentsline {chapter}{\numberline {4}Analyse der Ergebnisse}{31}{chapter.4}
+\contentsline {subsubsection}{Stochastic Gradient Descent}{32}{section*.32}
+\contentsline {subsubsection}{Mini-Batch Gradient Descent}{32}{section*.33}
+\contentsline {subsubsection}{Batch Gradient Descent}{32}{section*.34}
+\contentsline {section}{\numberline {4.1}Lernen der Sinusfunktion mit Stochastic Gradient Descent}{32}{section.4.1}
+\contentsline {subsubsection}{Lernen eines Models mit 2 Fuzzy Sets und 1 Ablauf}{33}{section*.36}
+\contentsline {subsubsection}{Lernen eines Models mit 2 Fuzzy Sets und 10 Abl\IeC {\"a}ufe}{35}{section*.39}
+\contentsline {subsubsection}{Lernen eines Models mit 8 Fuzzy Sets und 10 Abl\IeC {\"a}ufe}{37}{section*.42}
+\contentsline {subsection}{\numberline {4.1.1}Schlussfolgerung}{40}{subsection.4.1.1}
+\contentsline {section}{\numberline {4.2}Lernen der Sinusfunktion mit Mini-Batch Gradient Descent}{40}{section.4.2}
+\contentsline {subsubsection}{Lernen der Sinusfunktion mit 2 Fuzzy-Sets und 1 Ablauf}{40}{section*.45}
+\contentsline {subsubsection}{Lernen der Sinusfunktion mit 2 Fuzzy-Sets und 10 Ablauf}{41}{section*.47}
+\contentsline {subsubsection}{Lernen der Sinusfunktion mit 2 Fuzzy-Sets und 1000 Abl\IeC {\"a}ufe}{43}{section*.49}
+\contentsline {section}{\numberline {4.3}Lernen der Sinusfunktion mit Batch Gradient Descent}{45}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Lernen mit 2 Fuzzy-Sets}{45}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Lernen mit 3 Fuzzy-Sets}{47}{subsection.4.3.2}
+\contentsline {section}{\numberline {4.4}Lernen der Parabelfunktion}{48}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Lernen der Parabelfunktion mit Mini-Batch Gradient Descent}{48}{subsection.4.4.1}
+\contentsline {section}{\numberline {4.5}Fazit}{52}{section.4.5}
+\contentsline {chapter}{Literaturverzeichnis}{54}{chapter*.62}

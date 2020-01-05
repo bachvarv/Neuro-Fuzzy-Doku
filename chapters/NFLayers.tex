@@ -1,17 +1,27 @@
 \chapter{Neuro-Fuzzy-Modelle: Implementierung des ANFIS-Ansatzes}
 
-In der folgenden Kapitel stelle ich meine Aufsetzung des ANFIS-Ansatzes in Python vor. Während der Ausarbeitungszeit habe ich mich mit der Bibliothek für Neuronale Netze Tensorflow zusammengesetzt. Tensorflow ist ein Produkt von Google und eins der verbreitendsten APIs für Erstellung von Neuronalen Netzen. Wegen zahlreicher Nutzung ist das Web befüllt mit Guides und Tutorials über das Bauen von Neuronalen Netzen mit der Bibliothek Tensorflow. Aus diesem Grund habe ich mich für ihre Verwendung entschieden. Eine weitere Funktionalität, die die Bibliothek anbietet, ist die einfache Migration von erstellten Neuronalen Netzen. Tensorflow bietet die Möglichkeit, einfach Modelle nach den unterstützten Programmiersprachen zu exportieren, in disem
-Sinne auch nach C++.
+In der folgenden Kapitel stelle ich die Aufsetzung des ANFIS-Ansatzes in Python vor. Während der Ausarbeitungszeit habe ich mich mit der Bibliothek für Neuronale Netze Tensorflow gesetzt. Tensorflow ist ein Produkt von Google und eine API für Erstellung von Neuronalen Netzen. Eine weitere Funktionalität, die die Bibliothek anbietet, ist die einfache Migration von erstellten Neuronalen Netzen. Tensorflow bietet die Möglichkeit, einfach Modelle nach den unterstützten Programmiersprachen zu exportieren, in disem Sinne auch nach C++.
 
-In diesem Artikel wird so vorgegangen, dass zu jedem Programmcode eine Erklärung gegeben wird. Vorrigen Artikeln gehen auf die eigentliche Struktur und theoretische Aufsetzung eines ANFIS-Models in einem Neuronalen Netz. Laut einem dieser Artikeln besteht ein System aus sechs Schichten (zwei äußere und vier inneren Schichten). Über die erste Schicht erfolgt die Eingabe im Netz. Die weiteren fünf Schichten führen einfache mathematische Funktionen aus.
+In diesem Kapitel wird so vorgegangen, dass zu jedem Programmcode eine Erklärung gegeben wird. Der vorrige Kapitel geht auf die eigentliche Struktur und theoretische Aufsetzung eines ANFIS-Models in einem Neuronalen Netz. Laut dem Kapitel \ref{ANFIS} besteht ein ANFIS-System aus sechs Schichten (zwei äußere und vier inneren Schichten). Über die erste Schicht erfolgt die Eingabe im Netz. Die weiteren fünf Schichten führen einfache mathematische Funktionen aus.
 
 \section{ANFIS-Klasse}\label{anfis-klasse}
 
 Das Neuro-Fuzzy-Model wird nach dem bekannten ANFIS-Model eingerichtet. Das Model hat insgesammt 6 Schichten, 2 Außen- und 4 Innenschichten. Das ANFIS-Model wird in einer Klassendatei ausgelagert. Die Klasse verfügt über mehrere Methoden, einige davon Hilfsmethoden. Folglich werden die Wichtigsten davon in Unterkapiteln gestellt.
 \subsection{Konstruktor}\label{konstruktor}
 
-Die ANFIS-Klasse vefügt über einen einzigen Konstruktor. Er hat einen Pflicht- und drei Optionalparameter - \emph{num\_sets} und entsprechend \emph{path}, \emph{mf\_type}, \emph{gradient\_type}. Der Parameter \emph{num\_sets} besagt wie viele Fuzzy-Mengen pro Eingangsgröße zu erstellen sind. Der Pfad wird durch ein String - \emph{path} - gegeben. Weiterhin unterscheide ich zwischen zwei Weisen der Berechnung von Zugehörigkeit, deren Vergleich wurde in der weitere Dokumentation erläutert. Anschliesend ergibt die Variable \emph{gradient\_type} die Größe der Trainingsdaten, oder die Art des Gradient Descent. Es unterscheiden sich drei Arten von Gradient Descent Verfahren -
-Stochastic, Mini-Batch und Batch Gradient Descent Verfahren. Die gegebene Anordnung der Begriffe entspricht der in dem Programmcode, sprich \emph{gradient\_type=0} entspricht dem stochastischen Verfahren. Der Wert \emph{1} heißt, dass das Mini-Batch ausgewählt wird und \emph{2} - Batch Gradient Descent. Die drei Arten unterscheiden sich in dem Punkt, dass die Variablen zu Unterschiedlichen Zeitpunkten angepasst werden. Bei dem stochastischen Verfahren werden die Parameter nach jeder Bearbeitung von Trainingspaaren verändert. Bei dem Mini-Batch wird jeweils nach der Bearbeitung von gewisser Anzahl an Datenelementen. Eine übliche Anzahl ist meistens zwischen 30 und 500 Trainingsdaten pro Iteration, jedoch ist das weniger als der Gesamtmenge. Der Batch Gradient Verfahren nimmt die ganze Datenmenge und führt mit denen einen Lernzug. Die Erkenntnisse aus den Tests werde ich in einer weiteren Dokumentation beschreiben.
+Die ANFIS-Klasse vefügt über einen einzigen Konstruktor. 
+
+\begin{lstlisting}[language=Python]
+# gradient_type defines the batch size to be used for learning
+# 0-type = Stochastic Gradient Descent
+# 1-type = Mini-Batch Gradient Descent, 30 samples from the training data
+# 2-type = Batch Gradient Descent
+def __init__(self, num_sets, path=None, gradient_type=0, mf_type=0):
+...
+\end{lstlisting}
+
+Er hat einen Pflicht- und drei Optionalparameter - \emph{num\_sets} und entsprechend \emph{path}, \emph{mf\_type}, \emph{gradient\_type}. Der Parameter \emph{num\_sets} besagt wie viele Fuzzy-Mengen pro Eingangsgröße zu erstellen sind. Der Pfad wird durch ein String - \emph{path} - gegeben. Weiterhin unterscheide ich zwischen zwei Weisen der Berechnung von Zugehörigkeit. Anschliesend ergibt die Variable \emph{gradient\_type} die Größe der Trainingsdaten, oder die Art des Gradient-Descents. Es unterscheiden sich drei Arten von Gradient Descent Verfahren -
+Stochastic, Mini-Batch und Batch Gradient Descent Verfahren. Die gegebene Anordnung der Begriffe entspricht der in dem Programmcode, sprich \emph{gradient\_type=0} entspricht dem stochastischen Verfahren. Der Wert \emph{1} heißt, dass das Mini-Batch ausgewählt wird und \emph{2} - Batch Gradient Descent. Die drei Arten unterscheiden sich in dem Punkt, dass die Variablen zu Unterschiedlichen Zeitpunkten angepasst werden. Bei dem stochastischen Verfahren werden die Parameter nach jeder Bearbeitung von Trainingspaaren verändert. Bei dem Mini-Batch wird jeweils nach der Bearbeitung von gewisser Anzahl an Datenelementen. Eine übliche Anzahl ist meistens zwischen 30 und 500 Trainingsdaten pro Iteration, jedoch ist das weniger als der Gesamtmenge. Der Batch Gradient Verfahren nimmt die ganze Datenmenge und führt mit denen einen Lernzug. Die Erkenntnisse aus den Tests werde ich in dem nächsten Kapitel beschreiben.
 
 Der Konstruktor umfasst Definition der benötigten Variablen und die Erstellung des Models. Zu beginn werden die Trainingsdaten aus einer Datei gelesen. Durch die Struktur des Datensatzes wird die Anzahl der Eingangvariablen in dem Netz bestimmt. Die Datenpaar sind zeileinweise aufgebaut. In der Zeile werden zu bestimten Eingaben die Soll-Ergebnisse gegeben. Die letzte Spalte liefert die Sollwerte und in den Spalten davor werden die Eingangswerte geschrieben, sodass zum Beispiel in der ersten Spalte \(\mathbf{x_1}\), in der zweiten \(\mathbf{x_2}\) usw. und in der letzen der Erwartungswert steht. Üblicherweise arbeite ich mit einer Eingangsgröße, somit hat eine Datei zwei Spalten. 
 Falls das gegebene Pfad gültig ist, werden vier Felder erstellt, zwei jeweils fürs Lernen und die Prüfung. Falls der Parameter \(\textit{fulltrain}\) auf \(\textit{wahr}\) gesetzt ist, werden die Daten nicht aufgeteilt. Bei dem Vorderen werden die Daten so getrennt, dass drei viertel der Datensätze fürs Training und ein viertel der Daten für die Bewertung des gelernten Modells verwendet werden. 
@@ -29,14 +39,14 @@ f = Anfis(num_sets=num_sets,
 
 \subsection{Eingangsschicht (FirstLayer)}\label{eingangsschicht-first-layer}
 
-Die Definition der Eingangsschicht erlangt in der Funktion \emph{first\_layer()}. Die Methode erhält keine Parameter und initialisiert die zwei Eingangsgrößen. In Tensorflow können Eingaben an mehreren Stellen im Netzt eingeführt werden, was hier auch der Fall für die \textbf{Y-Variable} ist. Die \textbf{Y-Variable} wird in der Fehlerfunktion gebraucht und sie enthält alle Soll-Ergebnisse.
+Die Definition der Eingangsschicht erfolgt in der Funktion \emph{first\_layer()}. Die Methode erhält keine Parameter und initialisiert zwei Tensoren für die Eingangsgrößen \textbf{X} und \textbf{Y}. In Tensorflow können Eingaben an mehreren Stellen im Netzt eingeführt werden, was hier auch der Fall für die \textbf{Y-Variable} ist. Die \textbf{Y-Variable} wird in der Fehlerfunktion gebraucht und sie enthält alle Soll-Ergebnisse.
 
 
 \begin{lstlisting}[language=Python]
 #...
 # three different types for gradient descent type
 # so we have three types of batch size, 
-# wich defines the amount of elements to be evaluated in one interation
+# wich defines the amount of elements to be evaluated in one iteration
 if self.gradient_type == 0:
 	self.batch_size = self.num_inputs
 elif self.gradient_type == 1:
@@ -47,23 +57,26 @@ elif self.gradient_type == 2:
 self.x = tf.placeholder(name="x", shape=(self.num_inputs, self.batch_size), 
 	dtype=tf.float64)
 # variable for expected result
+# we define dtype=tf.float64, because of the size of the values
+# that the model returns
 self.y = tf.placeholder(name="y", shape=(self.batch_size), dtype=tf.float64)
 #...
 \end{lstlisting}
 
-Die $\textbf{Variable X}$ ist ein Array, das eine Matrix mit $\textit{n (num\_inputs)}$ Zeilen (Werten) und $\textit{batch\_size}$ Spalten repräsentiert. Die Methode $\textit{placeholder}$ in Tensorflow erstellt einen Tensor, der keine zusätzliche Operation oder Funktion ausführt. $\textit{Placeholders}$ werden meistens als Eingangsvariablen verwendet. In der Variable $\textit{num\_inputs}$ wird die Anzahl der Eingangsvariablen geschrieben. Im normalen Fall entspricht der Wert von $\textit{n}$ gleich 1. Weitere Größen für $\textit{n}$ werden nicht betrachtet. Der $\textbf{Y-Placeholder}$ wird auch als Eingabe in dem Verlustfunktion genutzt, die später in dem Artikel gegeben wird. Die $\textbf{Variable Y}$ enthält den Erwartungwert für gegebener $\textbf{Eingangswert X}$. Der eigentliche
+Die $\textbf{Variable X}$ ist ein Array, das eine Matrix mit $\textit{n (num\_inputs)}$ Zeilen (Werten) und $\textit{batch\_size}$ Spalten repräsentiert. Die Methode $\textit{placeholder}$ in Tensorflow erstellt einen Tensor, der keine zusätzliche Operation oder Funktion ausführt. $\textit{Placeholders}$ werden meistens als Eingangsvariablen verwendet. In der Variable $\textit{num\_inputs}$ wird die Anzahl der Eingangsvariablen geschrieben. Im normalen Fall entspricht der Wert von $\textit{n}$ gleich 1. Weitere Größen für $\textit{n}$ werden nicht betrachtet. Der $\textbf{Y-Placeholder}$ wird auch als Eingabe in dem Verlustfunktion genutzt, die später in dem Unterkapitel \ref{optimisierungsfunktion} gegeben wird. Der $\textbf{Tensor Y}$ enthält am Ende einer Iteration den Erwartungwert für gegebener $\textbf{Eingangswert X}$. Der eigentliche
 Ausgangswert(Istwert) wird von der letzen Schicht berechnet.
 
 \subsection{Konklusionsparameter}\label{konklusionsparameter}
 
-Nach der Definition der Eingagnsvariablen erfolgt die Erstellung von zwei Variablen, in dennen die Konklusionsparametern gespeichert werden. In diesem Fall handelt es sich nicht mehr um $\textit{Placeholdern}$, sondern $\textit{Variablen}$. Ihre Konstruktion erfolgt über die Hilfsfunktion $\textit{get\_variables()}$. Die Tensorflow-Dokumentation beschreibt diese sehr ausführlich. Die Funktion überprüft, ob eine Variable mit gegebener Name existiert. Variable wird erstellt, wenn das nicht der Fall ist, ansonsten wird die entsprechende Variable zurückgeliefert.
+Nach der Definition der Eingangsvariablen erfolgt die Erstellung von zwei Variablen, in denen die Konklusionsparametern gespeichert werden. In diesem Fall handelt es sich nicht mehr um $\textit{Placeholdern}$, sondern $\textit{Variablen}$. Ihre Konstruktion erfolgt über die Hilfsfunktion $\textit{get\_variables()}$. Die Funktion überprüft, ob eine Variable mit gegebener Name existiert. Variable wird erstellt, wenn das nicht der Fall ist, ansonsten wird die entsprechende Variable zurückgeliefert.
 
 Im Kapitel 1 und in 2 aus der Dokumentation ist der Normalform der Konklusionsfunktionen eines Takagi-Sugeno-Kang-Modells definiert. Die Form der Gleichung ist hier nochmal gegeben:
 
 \begin{align}
 f_i(x_1, ..., x_m) & = w_0^i + w_1^i\cdot x_1 + ... w_m^i\cdot x_m
+\label{konk_func}
 \end{align}
-Jede Konklusionsfunktion hat ihre eigene Parameter. Damit keine einzelnen Variablen definiert werden, können diese in einem Vektor, bzw. Matrix, gespeichert werden. Die Stelligkeit der ersten Variable $a_0$, $w_0^i$ in der Gleichung, hängt von der Anzahl der Regeln. Wir rechnen mit insgesammt $num\_sets^{num\_inputs}$-Viele Regeln ($\textit{num\_rules}$). Für die restlichen Konklusionsparametern $a_y$ wird eine Matrix mit Dimensionen $num\_rules\times num\_inputs$ erstellt. Beide Variablen sind trainierbar, was aus dem Parameter $\textit{trainable}$ ersichtlich wird. Folgendes Programmabschnitt stellt die Umsetzung dar.
+Jede Konklusionsfunktion hat ihre eigene Parameter. Damit keine einzelnen Variablen definiert werden, können diese in einem Vektor, bzw. Matrix, gespeichert werden. Die Stelligkeit der ersten Variable $w_0^i$ in der Gleichung \ref{konk_func} hängt von der Anzahl der Regeln. Wir rechnen mit insgesammt $num\_sets^{num\_inputs}$-Viele Regeln ($\textit{num\_rules}$). Für die restlichen Konklusionsparametern $w_y^i$ wird eine Matrix mit Dimensionen $num\_rules\times num\_inputs$ erstellt. Beide Variablen sind trainierbar, was aus dem Parameter $\textit{trainable}$ ersichtlich wird. Folgendes Programmabschnitt stellt die Umsetzung dar.
 
 \begin{lstlisting}[language=Python]
 #...
@@ -179,27 +192,15 @@ Definitionslücken entstehen, verzichte ich auf die Trainierung der
 beiden Grenzwertparametern. Neben dem Trainingsausschluß des ersten
 Parameter der ersten Menge und des letzten der letzen Mengen, die die
 Wertebereich bestimmen, werden auch weitere Einschränkungen angelegt.
-Zum einen wird der Wert der Spitzenparameter(mittlerer Parameter) jeder
+Zum einen wird der Wert der Spitzenparameter (mittlerer Parameter) jeder
 Funktion begrenzt, sodass er nicht kleiner als der linke Parameter, bzw.
-größer als der rechte Parameter, wird. Ohne diese Regel entstehen
-manchmal ungültige Fuzzy-Mengen.
+größer als der rechte Parameter, wird. Der Spitzenparameter darf nicht gleich der linke oder rechte Parameter sein, weil es zur Undefiniertheit der Zugehörigkeitsfunktion führt.
 
 Infolge des Austesten tauchten kritischen Fehler bezüglich der
 Undefiniertheit der Zugehörigkeitsfunktionen auf. Diese Mangeln könnte
 ich mit drei Einschränkungen aufheben. Die Beschränkungen fallen auf die
-drei Parametern, \(\textit{a, m, b}\), genauer gesagt die
-Dreiecksfunktionsparameter:
+drei Parametern der Dreiecksfunktion.
 
-\begin{lstlisting}[language=Python]
-# ...
-self.constraints.append(tf.assign(a, tf.clip_by_value(a, 
-		self.range[0], m- 1e-2)))
-self.constraints.append(tf.assign(b, tf.clip_by_value(b, 
-		m + 1e-2, self.range[1])))
-self.constraints.append(tf.assign(m, tf.clip_by_value(m, 
-		self.range[0] +0.1, self.range[1] - 0.1)))
-# ...
-\end{lstlisting}
 
 \subsubsection{Zweiter Programmteil (Third Layer)}\label{zweiter-programmteil-third-layer}
 
@@ -280,7 +281,7 @@ def sixth_layer(self):
 
 \section{Optimisierungsfunktion}\label{optimisierungsfunktion}
 
-Nachdem das Neuronale Model aufgebaut wird, folgt die Definition des Optimierungsverfahren. In der Literatur, auch in der Praxis, wird die Kleinste-Quadrate Funktion verwendet. Auch hier habe ich diese eingesetzt. Als nächstes muss der Optimiser definiert werden. Die zwei bekanntesten sind $\emph{GradientDescnetOptimizer}$ und $\emph{AdamOptimizer}$. Bei der Auswahl gibt es keinen klaren besseren Algorithmus. Um den richtigen Optimisierer auszuwählen, muss man mit den unterschiedlichen Algorithmen gespielt haben, bis der Beste gefunden wird. In meinem Fall ist der AdamOptimizer besser geeignet. Unten ist die Definition der Funktion in Pseudocode gegeben.
+Nachdem das Neuronale Model aufgebaut wird, folgt die Definition des Optimierungsverfahren. In der Literatur, auch in der Praxis, wird die Kleinste-Quadrate Funktion verwendet. Auch hier habe ich diese eingesetzt. Als nächstes muss der Optimiser definiert werden. Die zwei bekanntesten sind $\emph{GradientDescentOptimizer}$ und $\emph{AdamOptimizer}$. Nach zahlreichem Testen der beidein Optimizer bin ich zu der überzeugung gekommen, dass der $\emph{AdamOptimizer}$ besser geeignet ist. Unten ist die Definition der Optimierungsfunktion gegeben.
 
 \begin{lstlisting}[language=Python]
 def optimize_method(self):
@@ -333,4 +334,4 @@ beim Lernen beschreibt.
 Die Trainingsfunktion kann in vier Teile abgegrenzt werden. In dem ersten Teil fallen alle Operationen für die Aufzeichnung der Grafiken vor dem Lernen. Im zweiten Teil fällt der Lernzug. Danach kommt entsprechend die Zeichnung des 
 geänderten Models. Zum Schluss werden alle Daten in Dateien abgespeichert.
 
-Im nächsten Kapitel wird das beschriebene Programm getestet. Die Tests haben zum Ziel einen Vertand zu verschaffen, wie schell das Modell lernt und wie das Modell am besten konfiguriert werden kann.
+Im nächsten Kapitel wird das beschriebene Programm getestet. Die Tests haben zum Ziel einen Verstand zu verschaffen, wie schell das Modell lernt und wie das Modell am besten konfiguriert werden kann.

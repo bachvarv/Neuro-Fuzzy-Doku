@@ -1,10 +1,10 @@
 \chapter{Analyse der Ergebnisse}
 
-In diesem Kapitel findet man Informationen über die durchgeführten Programmtests. Ziel der Testfälle ist es zu bestimmen, wie gut meine Implementierung des ANFIS-Models lernt. In jedem Unterkapitel wird gegen eine bestimmte Eigenschaft getestet. Bei der Untersuchung nehme ich in Betrachtung zwei mathematischen Funktionen, zwar die Parabel- und Sinusfunktion. Die Tests werden anhand Variation von drei Variablen - Anzahl Fuzzymengen und Iterationen, und Gradient-Descent-Arten. 
+In diesem Kapitel findet man Informationen über die durchgeführten Programmtests. Ziel der Testfälle ist es zu bestimmen, wie gut meine Implementierung des ANFIS-Models lernt. In jedem Unterkapitel wird gegen eine bestimmte Eigenschaft getestet. Bei der Untersuchung nehme ich in Betrachtung zwei mathematischen Funktionen, zwar die Parabel- und Sinusfunktion. 
 
 Bei den Tests werden drei Arten von Gradient-Descent-Verfahren angesetzt - Stochastischen, Mini-Batch und Batch Gradienten Verfahren. Deren Eigenschaften werden in den nächsten Unterkapiteln erläutert. 
 
-Außerdem werde ich zwei unterschiedlichen Berechnungsweisen für die Zugehörigkeitsfunktionen verwenden. Das Endergebnis der Funktionen ist gleich, jedoch lernt das Modell unterschiedlich. Die zwei Arten nenne ich MF-Typ 0 und MF-Typ 1. Wenn ich vom MF-Typ 0, oder nur Typ 0, spreche, meine ich, dass die Zugehörigkeitsberechnung in zwei Teilen untergegliedert ist. Man kann das Dreieck, das durch die drei Parametern der Zugehörigkeitsfunktion bestimmt ist, durch die Mitte teilen. Dann entstehen zwei Bereiche, die separat betrachtet werden. Auf dieser Weise entstehen zwei Gleichungen (Teilen). Bei dem Typ 1 erfolgt die Berechnung in einer Gleichung. Also da wird nicht unterschieden, wo der X-Wert auf der Hypothenuse liegt - kleiner oder größer als der Mittelpunkt. Die zwei Berechnungsweisen für MF-Typ 0 \ref{mf_typ0} und MF-Typ 1 \ref{mf_typ1} gebe ich als Gesammtformel an.
+Außerdem werde ich zwei unterschiedlichen Berechnungsweisen für die Zugehörigkeitsfunktionen verwenden. Die zwei Arten nenne ich MF-Typ 0 und MF-Typ 1. Wenn ich vom MF-Typ 0, oder nur Typ 0, spreche, meine ich, dass die Zugehörigkeitsberechnung in zwei Teilen untergegliedert ist. Man kann das Dreieck, das durch die drei Parametern der Zugehörigkeitsfunktion bestimmt ist, durch die Mitte teilen. Dann entstehen zwei Bereiche, die separat betrachtet werden. Auf dieser Weise entstehen zwei Gleichungen (Teilen). Bei dem Typ 1 erfolgt die Berechnung in einer Gleichung. Also da wird nicht unterschieden, wo der X-Wert auf der Hypothenuse liegt - kleiner oder größer als der Mittelpunkt. Die zwei Berechnungsweisen für MF-Typ 0 \ref{mf_typ0} und MF-Typ 1 \ref{mf_typ1} gebe ich als Gesammtformel an.
 \begin{align}
 	\begin{split}\label{mf_typ0}
 		\mu(x) = \max[\min(\frac{x - a}{m - a}, \frac{b - x}{b - m}), 0.0]
@@ -23,14 +23,14 @@ Nachdem alle Verfahren vorgestellt wurden, wird mit den Tests begonnen.Wegen der
 Die Vorgehensweise bei der Beschriftung der Testfälle erfolgt für beide Funktionen gleich. Für ein Model wird seine Struktur und seine Eigenschaften gegeben. Weiterhin wird das Ergebnisgrafik gezeichnet. Zum Schluss werden die gelernten Konklusionsfunktionen vorgestellt. Zu jedem Teil wird eine Erläuterung zusätzlich aufgeführt. 
  
 \subsubsection{Stochastic Gradient Descent}
-Bei dem stochastischen gradienten Verfahren (Stochastic Gradient Descent) handelt es sich um eine spezifische Eingabenweise. Bei dieser Vorgehensweise werden einzelnen Einträgen aus dem Datensatz als Eingabe in das Model gegeben. Somit beschreibt ein Element eine Iteration (Epoche) in dem Lernprozess. Nach jeder Iterationen werden die betroffenen Gewichten (Parametern) angepasst. Dieses Verfahren wird am seltesten von Allen (Stochastic, Mini-Batch und Batch) eingesetzt.
+Bei dem stochastischen gradienten Verfahren (Stochastic Gradient Descent) handelt es sich um eine spezifische Eingabenweise. Bei dieser Vorgehensweise werden einzelnen Einträgen aus dem Datensatz als Eingabe in das Model gegeben. Somit beschreibt ein Element eine Iteration (Epoche) in dem Lernprozess. Nach jeder Iterationen werden die betroffenen Gewichten (Parametern) angepasst. \cite{SBMB:19}
 
 
 \subsubsection{Mini-Batch Gradient Descent} \label{mini_batch}
-Bei dem Mini-Batch Verfahren werden kleine Sets, normalerweise zwischen 30 und 500 Elemente, aus der Menge der Daten genommen und diese an dem Model zum Lernen gegeben. Das heißt eine Iterationen wird erst dann durchgeführt, wenn alle Elemente aus dem Batch abgearbeitet werden. Dieses Verfahren wird öfters bei Lernaufgaben verwendet, bei dennen der Datensatz extrem groß ist. In meinem Programm baue ich Zufälligkeit, sodass die Lernmenge zufällig aus der Gesamtmenge auszuwählen ist.
+Bei dem Mini-Batch Verfahren werden kleine Sets, normalerweise zwischen 30 und 500 Elemente, aus der Menge der Daten genommen und diese an dem Model zum Lernen gegeben. Das heißt eine Iterationen wird erst dann durchgeführt, wenn alle Elemente aus dem Batch abgearbeitet werden. Dieses Verfahren wird öfters bei Lernaufgaben verwendet, bei dennen der Datensatz extrem groß ist. In meinem Programm baue ich Zufälligkeit, sodass die Lernmenge zufällig aus der Gesamtmenge auszuwählen ist. \cite{SBMB:19}
 
 \subsubsection{Batch Gradient Descent}\label{batch}
-Bei dem Batch Gradient Descent setzt man eine Architektur, bei der alle Daten in dem Lernprozess innerhalb eines Lernzugs fließen. Diese Art ist gut geeignet, bei Problemstellungen, wo die Datenbasis angemessen groß ist. In unseren zwei Fällen handelt es sich um relativ kleine Datenmengen (400 und 1000 Datensätze entsprechend für Sinus- und Parabelfunktion). Bei Lernaufgaben mit 100 Tausende von Datensätze ist diese Vorgehensweise ungeeignet. Da ist das Mini-Batch-Verfahren einzusetzen.
+Bei dem Batch Gradient Descent setzt man eine Architektur, bei der alle Daten in dem Lernprozess innerhalb eines Lernzugs fließen. Diese Art ist gut geeignet, bei Problemstellungen, wo die Datenbasis angemessen groß ist. In unseren zwei Fällen handelt es sich um relativ kleine Datenmengen (400 und 1000 Datensätze entsprechend für Sinus- und Parabelfunktion). Bei Lernaufgaben mit 100 Tausende von Datensätze ist diese Vorgehensweise ungeeignet. Da ist das Mini-Batch-Verfahren einzusetzen. \cite{SBMB:19}
 
 \section{Lernen der Sinusfunktion mit Stochastic Gradient Descent}
 In diesem Kapitel wird die Sinusfunktion untersucht. Hier erläutere ich die Ergebnisse, die bei den Lernvorgängen erschaffen wurden. Zum Schluss verschaffe ich einen Überblick über die besten Eigenschaften zum Lernen der Sinusfunktion.
@@ -106,8 +106,6 @@ Als letztes sind noch die Konklusionsfunktionen der beiden Lernabläufe - Konklu
 	y_{mft1_2}(x) = -2.1789615 + 0.35914132\cdot x
 	\end{split}	
 \end{align}
-
-Aus der Konklusionsfunktionen kann man keine Rückschlüsse ziehen. Die Endkurven sind ähnlich, aber das ist kein Wunder, da beide Modelle versuchen, die selbe Funktion zu lernen. 
 
 \subsubsection{Lernen eines Models mit 2 Fuzzy Sets und 10 Abläufe}\label{m2fs10ab}
 
@@ -264,7 +262,7 @@ y_{mft1_8}(x) = -0.04088159 - 0.28006114\cdot x
 \subsection{Schlussfolgerung}
 Hier ist schwehr die beste Konfiguration fürs Lernen zu nennen. Ich würde sogar sagen, dass das Lernen mit dem stochastischen Verfahren ungeeignet ist. Im nächsten Kapitel wird das Mini-Batch-Verfahren ausgetestet.
 
-Außerdem wird in den nächsten Kapiteln nur auf MF-Typ 0 Modelle konzentriert. Da MF-Typ 1 Modelle nur für symmetrische Fuzzy-Mengen geeignet sind.
+Aus den Zahlreichen Tests, die durchgeführt worde, wurde beschlossen, dass MF-Typ 1 Modelle nicht geeignet ist, da auch asymmetrische Fuzzy-Mengen zugelassen sind die MF-Typ 1 Berechnung nicht dafür geeignet ist. 
 %\begin{tabular}
 %	
 %\end{tabular}
@@ -580,15 +578,15 @@ Aus den Abbildungen ist zu lesen, dass das Modell (siehe \ref{par_5000It}) mit p
 		parabola\_positive & 12.474743275000002&5956089.5&Mini-Batch Gradient Descent&two equations mf
 		\\ \hline
 	\end{tabular}
-\captionof{table}{Testergebnisee von dem Training der Funktionen ``parabola'' und parabola_``positive''}\label{par_tab1_5000MB}
+\captionof{table}{Testergebnisee von dem Training der Funktionen ``parabola'' und parabola\_``positive''}\label{par_tab1_5000MB}
 \end{minipage}
 \end{center}
 
-Wie auch schon aus den Grafiken ersichtlich geworden ist, eignet sich das gemischte Modell besser zum lernen. Auch die nummerischen Daten sprechen dafür, dass dies der Fall ist. Es besteht ein riesiger Unterschied in den Fehlerraten der beiden Testfälle.
+Wie auch schon aus den Grafiken ersichtlich geworden ist, eignet sich das Modell im positiven und negativen X-Bereich besser zum lernen. Auch die nummerischen Daten sprechen dafür, dass dies der Fall ist. Es besteht ein riesiger Unterschied in den Fehlerraten der beiden Testfälle.
 
 \section{Fazit}
 
-Die beschriebenen Testfälle wurden explizit ausgewählt, mit dem Ziel bestimmte Eigenschaften nachzuweisen. Der durchgeführten Tests zofolge kann beschlossen werden, dass Modelle mit dem MF-Typ 0 (siehe \ref{mf_typ0}) in meinem Fall geeigneter sind. Das wurde festges aus dem Grund, weil die Berechnung der Zugehörigkeit mit MF-Typ 1 nur für symmetrische Fuzzymengen geeignet ist und der Fehler in den Tests (siehe z.B. Abbildungen \ref{2Sets4000_Stoch_1} und \ref{2Sets400_Stoch_1}) zu erkennen ist. Weiterhin sollte genannt werden, dass der MF-Typ 1 etwas schneller ist, weil er nur eine Berechnung, im Vergleich zu MF-Typ 0, der in zwei Schritten berechnet wird, erfordert.
+Die beschriebenen Testfälle wurden explizit ausgewählt, mit dem Ziel bestimmte Eigenschaften nachzuweisen. Der durchgeführten Tests zofolge kann beschlossen werden, dass nur Modelle mit dem MF-Typ 0 (siehe \ref{mf_typ0}) unterstützt sind.
 
 Es ist sehr wichtig zu erwähnen, dass die Vergrößerung um eine Zusätzliche Menge etwa zwischen 1,2 und 1,3 Mal mehr Laufzeit erfordert. Während einer Verdopplung in Iterationen etwa die doppelte Laufzeit erfordert, was auch zu erwarten ist. Die Abbildung \ref{mini_batch_parabel_grafik} zeigt diese Beziehung.
 
